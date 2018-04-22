@@ -1,45 +1,6 @@
-     dt     | op | sn | no | rt  | _ |  $  | ttm |              title               | year | c |          theatre_name          | dur | day |               showtimes               
-------------+----+----+----+-----+---+-----+-----+----------------------------------+------+---+--------------------------------+-----+-----+---------------------------------------
- 2018-04-20 | 21 |  1 |    |  95 | O |   0 |  16 | A Quiet Place                    |      |   | Bow Tie Cinemas SONO Regent 8  |  95 |  14 | {13:00,15:20,17:30,19:50,22:20}
- 2018-04-20 | 18 |    |    |  50 | * |   0 |  16 | Rampage                          |      |   | Bow Tie Cinemas SONO Regent 8  | 107 |   7 | {14:30,17:10,19:40,22:10}
- 2018-04-20 | 18 |  1 |    |  92 | O |   0 |  16 | Love, Simon                      |      |   | Bow Tie Cinemas SONO Regent 8  | 110 |  35 | {18:40,21:10}
- 2018-04-20 | 16 |    |    |  35 | * |   0 |  16 | I Feel Pretty                    |      |   | Bow Tie Cinemas SONO Regent 8  |   0 |   0 | {14:10,16:50,19:30,22:00}
- 2018-04-20 | 16 |    |    |  33 | * |   0 |  16 | Super Troopers 2                 |      |   | Bow Tie Cinemas SONO Regent 8  |  99 |   0 | {13:50,16:20,19:00,21:30}
- 2018-04-20 | 14 |  1 |    |  82 | O |   0 |  16 | Blockers                         |      |   | Bow Tie Cinemas SONO Regent 8  | 102 |  14 | {12:20,14:40,17:00,19:20,21:40}
- 2018-04-20 | 14 |  1 |    |  73 | O |   0 |  16 | Ready Player One                 |      |   | Bow Tie Cinemas SONO Regent 8  | 140 |  22 | {12:15,15:20,18:20,21:20}
- 2018-04-20 | 13 |    |    | 100 | o |  15 |  24 | Dream Big: Engineering Our World | 2017 |   | IMAX Maritime Aquarium Norwalk |  40 |     | {11:00}
- 2018-04-20 | 13 |    |    | 100 | o |  15 |  24 | Pandas                           |      |   | IMAX Maritime Aquarium Norwalk |  40 |  14 | {12:00,14:00,16:00}
- 2018-04-20 | 12 |    |    |  15 | * |   0 |  16 | Blumhouse's Truth or Dare        |      |   | Bow Tie Cinemas SONO Regent 8  | 100 |   7 | {13:40,16:40,19:10,21:50}
- 2018-04-20 | 11 |    |    |  86 | o |   5 |  80 | October                          |      |   | Showcase Cinemas Bridgeport    | 115 |   7 | {13:15,16:20,19:15,22:05}
- 2018-04-20 | 11 |    |    |  78 | O |   5 |  78 | Chappaquiddick                   |      |   | Bow Tie Cinemas Landmark 9     | 101 |  14 | {14:10,16:50,19:30,22:00}
- 2018-04-20 | 11 |    |    |  78 | o |   5 |  78 | Final Portrait                   |      |   | Bow Tie Cinemas Landmark 9     |  90 |  28 | {14:00,16:30,19:00,21:10}
- 2018-04-20 |  9 |    |    |     |   |  15 |  24 | Backyard Wilderness              |      |   | IMAX Maritime Aquarium Norwalk |  42 |     | {13:00,15:00}
- 2018-04-20 |  9 |  1 |    |  96 | O |  28 |  12 | The Death of Stalin              |      |   | Garden Cinemas Norwalk         | 107 |  42 | {18:50}
- 2018-04-20 |  9 |  1 |    |  91 | O |  28 |  12 | Isle of Dogs                     |      |   | Garden Cinemas Norwalk         | 101 |   7 | {19:00,21:10}
- 2018-04-20 |  8 |  1 |    |  78 | O |   5 |  78 | Beirut                           |      |   | Bow Tie Cinemas Landmark 9     | 109 |   9 | {14:50,17:20,20:00,22:35}
- 2018-04-20 |  7 |    |    |  43 | * |   5 |  80 | Pacific Rim Uprising             |      |   | Showcase Cinemas Bridgeport    | 111 |  28 | {19:00,21:40}
- 2018-04-20 |  7 |    |    | 100 | O |  31 | 210 | The 400 Blows                    | 1959 | t | IFC Center                     |  93 |     | {11:00}
- 2018-04-20 |  7 |    |    | 100 | O |  31 | 210 | The Endless                      |      |   | IFC Center                     | 111 |  14 | {10:45,22:20}
- 2018-04-20 |  7 |    |    |  96 | O |  31 | 210 | Mean Streets                     | 1973 | t | IFC Center                     | 110 |     | {00:15}
- 2018-04-20 |  7 |    |    |  95 | o |  31 | 210 | Love After Love                  |      |   | IFC Center                     |  91 |     | {10:10,15:10}
- 2018-04-20 |  7 |  1 |    |  98 | O |  31 | 210 | Aliens                           | 1986 | t | IFC Center                     | 137 |     | {00:00}
- 2018-04-20 |  7 |  1 |    |  79 | O |  31 | 210 | Fight Club                       | 1999 | t | IFC Center                     | 139 |     | {23:45}
- 2018-04-20 |  6 |    |    |  85 | O |  31 | 210 | Ghost Stories                    |      |   | IFC Center                     |  97 |   0 | {13:00,17:20,19:45,22:00,00:25}
- 2018-04-20 |  5 |    |    |  96 | O | 102 |  40 | Bombshell: The Hedy Lamarr Story | 2017 |   | Jacob Burns Film Center        |  90 | 147 | {12:10,17:00}
- 2018-04-20 |  5 |  1 |    |  97 | O |  31 | 210 | Alien                            | 1979 | t | IFC Center                     | 116 |     | {00:05}
- 2018-04-20 |  4 |    |    |  24 | * |   5 |  78 | Traffik                          |      |   | Bow Tie Cinemas Landmark 9     |  96 |   0 | {13:40,16:10,19:20,21:55}
- 2018-04-20 |  4 |    |    |     |   |  31 | 204 | Avengers: Infinity War           |      |   | AMC Loews Lincoln Square 13    |     |  -7 | {}
- 2018-04-20 |  4 |    |    |     |   |  31 | 210 | 44 Pages                         |      |   | IFC Center                     |  97 |   2 | {12:20,18:05}
- 2018-04-20 |  2 |    |    |     |   | 102 |  40 | Lives Well Lived                 |      |   | Jacob Burns Film Center        |  72 |     | {13:00,14:50,16:40,18:30,20:20,22:00}
- 2018-04-20 | -1 |  1 |    |  96 | O |   5 |  72 | Black Panther                    |      |   | Bow Tie Cinemas Majestic 6     | 134 |  63 | {13:15,16:15,19:15,22:10}
- 2018-04-20 | -2 |    |    |  96 | O | 600 | 840 | The Rider                        |      |   | Bethesda Row Cinema            | 104 |   7 | {13:20,15:50,19:30,22:00}
- 2018-04-20 | -2 |  1 |    |  96 | O | 600 | 840 | Foxtrot                          |      |   | Bethesda Row Cinema            | 112 |     | {13:30,18:50}
- 2018-04-20 | -3 |    |    |  75 | o | 600 | 840 | Kodachrome                       |      |   | Bethesda Row Cinema            | 100 |   0 | {13:40,16:50,19:40,22:00}
- 2018-04-20 | -3 |    |    |  69 | o | 600 | 840 | Finding Your Feet                |      |   | Bethesda Row Cinema            | 111 |  21 | {16:10,21:20}
- 2018-04-20 | 20 |    | t  |  80 | o |   0 |  16 | Sgt. Stubby: An American Hero    |      |   | Bow Tie Cinemas SONO Regent 8  |  85 |   7 | {12:10,14:20,16:30}
- 2018-04-20 | 10 |    | t  |  70 | o |   5 |  80 | I Can Only Imagine               |      |   | Showcase Cinemas Bridgeport    | 110 |  35 | {13:40,16:30,19:25,22:00}
- 2018-04-20 |  7 |    | t  |  39 | * |   5 |  80 | A Wrinkle in Time                |      |   | Showcase Cinemas Bridgeport    | 109 |  42 | {13:00,16:00,19:05,21:40}
- 2018-04-20 |  4 |    | t  |  24 | * |   5 |  78 | Acrimony                         |      |   | Bow Tie Cinemas Landmark 9     | 120 |  21 | {18:50,21:35}
- 2018-04-20 |  3 |    | t  |  20 | * |   5 |  78 | Sherlock Gnomes                  |      |   | Bow Tie Cinemas Landmark 9     |  86 |  28 | {13:20,15:50}
-(41 rows)
+     dt     | op | sn | no | rt  | _ | $  | ttm |        title        | year | c |          theatre_name          | dur | day |      showtimes      
+------------+----+----+----+-----+---+----+-----+---------------------+------+---+--------------------------------+-----+-----+---------------------
+ 2018-04-21 | 15 |    |    | 100 | o | 15 |  24 | Pandas              |      |   | IMAX Maritime Aquarium Norwalk |  40 |  15 | {12:00,14:00,16:00}
+ 2018-04-21 | 12 |    |    |     |   | 15 |  24 | Backyard Wilderness |      |   | IMAX Maritime Aquarium Norwalk |  42 |     | {11:00,13:00,15:00}
+(2 rows)
 
