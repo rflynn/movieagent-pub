@@ -1,4 +1,37 @@
- n | dt | op | title | year | sn | rt | _ | cs | $ | ttm | theatre_name | dur | day | showtimes 
----+----+----+-------+------+----+----+---+----+---+-----+--------------+-----+-----+-----------
-(0 rows)
+ n  |     dt     | op |              title               | year | sn | rt  | _ | cs |  $  | ttm |          theatre_name          | dur | day |            showtimes            
+----+------------+----+----------------------------------+------+----+-----+---+----+-----+-----+--------------------------------+-----+-----+---------------------------------
+  1 | 2018-04-24 | 21 | A Quiet Place                    |      |  1 |  95 | O | B+ |   0 |  16 | Bow Tie Cinemas SONO Regent 8  |  90 |  18 | {13:10,15:20,17:30,19:50,22:20}
+  2 | 2018-04-24 | 19 | Love, Simon                      |      |  1 |  92 | O | A+ |   0 |  16 | Bow Tie Cinemas SONO Regent 8  | 110 |  39 | {18:40,21:10}
+  3 | 2018-04-24 | 15 | Rampage                          |      |  1 |  50 | * | A- |   0 |  16 | Bow Tie Cinemas SONO Regent 8  | 107 |  11 | {13:40,17:10,19:40,22:10}
+  4 | 2018-04-24 | 14 | October                          |      |    |  86 | o |    |   5 |  80 | Showcase Cinemas Bridgeport    | 115 |  11 | {16:20,19:15}
+  5 | 2018-04-24 | 14 | Chappaquiddick                   |      |    |  77 | O | B  |   5 |  78 | Bow Tie Cinemas Landmark 9     | 101 |  18 | {14:10,16:50,19:30,22:00}
+  6 | 2018-04-24 | 13 | Blumhouse's Truth or Dare        |      |    |  14 | * |    |   0 |  16 | Bow Tie Cinemas SONO Regent 8  | 100 |  11 | {13:40,16:10,19:10,21:50}
+  7 | 2018-04-24 | 13 | Final Portrait                   |      |    |  79 | o |    |   5 |  78 | Bow Tie Cinemas Landmark 9     |  90 |  32 | {14:00,16:30,19:00,21:10}
+  8 | 2018-04-24 | 12 | Backyard Wilderness              |      |    |     |   |    |  15 |  24 | IMAX Maritime Aquarium Norwalk |  42 |     | {11:00,13:00,15:00}
+  9 | 2018-04-24 | 11 | The Endless                      |      |    | 100 | O |    |  31 | 210 | IFC Center                     | 111 |  18 | {10:45,22:20}
+ 10 | 2018-04-24 | 11 | Blockers                         |      |  1 |  82 | O | B  |   0 |  16 | Bow Tie Cinemas SONO Regent 8  | 102 |  18 | {14:00,17:00,19:20,21:40}
+ 11 | 2018-04-24 | 11 | Ready Player One                 |      |  1 |  73 | O | A- |   0 |  16 | Bow Tie Cinemas SONO Regent 8  | 140 |  26 | {13:00,16:00,19:00,21:30}
+ 12 | 2018-04-24 | 10 | Pacific Rim Uprising             |      |    |  43 | * | B  |   5 |  80 | Showcase Cinemas Bridgeport    | 111 |  32 | {19:20}
+ 13 | 2018-04-24 | 10 | Love After Love                  |      |    |  95 | o |    |  31 | 210 | IFC Center                     |  91 |     | {10:10,15:10}
+ 14 | 2018-04-24 |  9 | Bombshell: The Hedy Lamarr Story | 2017 |    |  96 | O |    | 102 |  40 | Jacob Burns Film Center        |  90 | 151 | {13:10,17:45}
+ 15 | 2018-04-24 |  9 | Ghost Stories                    |      |    |  84 | O |    |  31 | 210 | IFC Center                     |  97 |   4 | {13:00,17:20,19:45,22:00}
+ 16 | 2018-04-24 |  9 | The Death of Stalin              |      |  1 |  96 | O |    |  28 |  12 | Garden Cinemas Norwalk         | 107 |  46 | {18:50}
+ 17 | 2018-04-24 |  9 | Isle of Dogs                     |      |  1 |  90 | O |    |  28 |  12 | Garden Cinemas Norwalk         | 101 |  11 | {19:00}
+ 18 | 2018-04-24 |  8 | Avengers: Infinity War           |      |    |     |   |    |  16 | 120 | AMC Loews Port Chester 14      |     |  -3 | {}
+ 19 | 2018-04-24 |  8 | The Weather Underground          | 2002 |    |     |   |    |  31 | 210 | IFC Center                     |  92 |     | {19:30}
+ 20 | 2018-04-24 |  6 | Traffik                          |      |    |  24 | * |    |   5 |  78 | Bow Tie Cinemas Landmark 9     |  96 |   4 | {13:40,16:10,19:20,21:55}
+ 21 | 2018-04-24 |  6 | 44 Pages                         |      |    |     |   |    |  31 | 210 | IFC Center                     |  97 |   6 | {12:20,18:15}
+ 22 | 2018-04-24 |  6 | Beirut                           |      |  1 |  78 | O |    |   5 |  78 | Bow Tie Cinemas Landmark 9     | 109 |  13 | {14:50,17:20,20:00,22:35}
+ 23 | 2018-04-24 |  4 | Lives Well Lived                 |      |    |     |   |    | 102 |  40 | Jacob Burns Film Center        |  72 |     | {13:00,14:50,17:00}
+ 24 | 2018-04-24 |  3 | Super Troopers 2                 |      |  1 |  35 | * | B+ |   0 |  16 | Bow Tie Cinemas SONO Regent 8  | 103 |   4 | {13:50,16:20,19:00,21:20}
+ 25 | 2018-04-24 | -9 | Black Panther                    |      |  1 |  96 | O | A+ |  23 |  20 | Bow Tie Cinemas Royale 6       | 134 |  67 | {12:30,15:30,18:30,21:40}
+ 26 | 2018-04-24 | 25 | Sgt. Stubby: An American Hero    |      |    |  80 | o | A  |   0 |  16 | Bow Tie Cinemas SONO Regent 8  |  85 |  11 | {14:20,16:30}
+ 27 | 2018-04-24 | 18 | I Feel Pretty                    |      |    |  34 | * | B+ |   0 |  16 | Bow Tie Cinemas SONO Regent 8  | 110 |   4 | {13:30,16:50,19:30,22:00}
+ 28 | 2018-04-24 | 16 | Pandas                           |      |    | 100 | o |    |  15 |  24 | IMAX Maritime Aquarium Norwalk |  40 |  18 | {12:00,14:00,16:00}
+ 29 | 2018-04-24 | 14 | I Can Only Imagine               |      |    |  70 | o | A+ |   5 |  80 | Showcase Cinemas Bridgeport    | 110 |  39 | {16:30,19:25}
+ 30 | 2018-04-24 | 10 | A Wrinkle in Time                |      |    |  39 | * | B  |   5 |  80 | Showcase Cinemas Bridgeport    | 109 |  46 | {16:25,19:25}
+ 31 | 2018-04-24 |  8 | The Miracle Season               |      |    |  44 | * | A  |  16 | 120 | AMC Loews Port Chester 14      |  99 |  18 | {19:45,22:15}
+ 32 | 2018-04-24 |  7 | Acrimony                         |      |    |  24 | * |    |   5 |  78 | Bow Tie Cinemas Landmark 9     | 120 |  25 | {18:50,21:35}
+ 33 | 2018-04-24 |  6 | Sherlock Gnomes                  |      |    |  20 | * | B+ |   5 |  78 | Bow Tie Cinemas Landmark 9     |  86 |  32 | {13:20,15:50}
+(33 rows)
 
