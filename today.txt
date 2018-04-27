@@ -1,4 +1,36 @@
- n | dt | op | title | year | sn | no | rt | _ | cs | $ | ttm | theatre_name | dur | day | showtimes 
----+----+----+-------+------+----+----+----+---+----+---+-----+--------------+-----+-----+-----------
-(0 rows)
+ n  |     dt     | op |           title            | year | sn | no | rt  | _ | cs | $  | ttm |          theatre_name          | dur | day |                  showtimes                  
+----+------------+----+----------------------------+------+----+----+-----+---+----+----+-----+--------------------------------+-----+-----+---------------------------------------------
+  1 | 2018-04-27 | 35 | Avengers: Infinity War     |      |    |    |  87 | O |    |  0 |  16 | Bow Tie Cinemas SONO Regent 8  | 149 |   0 | {10:30,11:30,14:50,15:40,18:15,21:35,22:20}
+  2 | 2018-04-27 | 23 | Avengers: Infinity War 3D  |      |    |    |     |   |    |  0 |  16 | Bow Tie Cinemas SONO Regent 8  |     |     | {12:20,13:00,16:25,19:00,19:45,23:10}
+  3 | 2018-04-27 | 20 | Chappaquiddick             |      |    |    |  77 | O | B  |  6 |  78 | Bow Tie Cinemas Landmark 9     | 101 |  21 | {18:50,21:20}
+  4 | 2018-04-27 | 17 | Born to Be Wild (2011)     | 2011 |    |    |     |   |    | 15 |  24 | IMAX Maritime Aquarium Norwalk |  40 |     | {11:00}
+  5 | 2018-04-27 | 16 | Blumhouse's Truth or Dare  |      |    |    |  14 | * |    |  0 |  16 | Bow Tie Cinemas SONO Regent 8  | 100 |  14 | {13:40,19:10}
+  6 | 2018-04-27 | 16 | October                    |      |    |    |  86 | o |    |  6 |  80 | Showcase Cinemas Bridgeport    | 115 |  14 | {13:15,16:20,19:15,22:05}
+  7 | 2018-04-27 | 13 | Backyard Wilderness        |      |    |    |     |   |    | 15 |  24 | IMAX Maritime Aquarium Norwalk |  42 |     | {13:00,15:00}
+  8 | 2018-04-27 | 12 | Ghost Stories              |      |    |    |  83 | O |    | 31 | 240 | IFC Center                     |  97 |   7 | {10:30,12:35,16:55,21:35,00:05}
+  9 | 2018-04-27 | 10 | Annie Hall (1977)          | 1977 |    |    |     |   |    | 31 | 240 | IFC Center                     |  93 |     | {11:00}
+ 10 | 2018-04-27 | 10 | Coldwater (2013)           | 2013 |    |    |     |   |    | 31 | 240 | IFC Center                     | 104 |     | {12:45,15:30,17:40,19:55,22:00}
+ 11 | 2018-04-27 | 10 | Eraserhead (1977)          | 1990 |    |    |     |   |    | 31 | 240 | IFC Center                     |  90 |     | {00:15}
+ 12 | 2018-04-27 |  9 | Traffik                    |      |    |    |  24 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9     |  96 |   7 | {13:40,16:10,19:20,21:55}
+ 13 | 2018-04-27 |  8 | Disobedience (2017)        |      |    |    |     |   |    | 31 | 204 | AMC Loews Lincoln Square 13    | 114 |     | {11:15,13:05,14:00,16:45,19:00,19:30,22:15}
+ 14 | 2018-04-27 |  8 | A Taxi Driver (2017)       | 2017 |    |    |     |   |    | 31 | 240 | IFC Center                     | 137 |     | {00:00}
+ 15 | 2018-04-27 |  8 | Let the Sunshine In (2017) |      |    |    |     |   |    | 31 | 240 | IFC Center                     |  94 |     | {10:40,12:40,14:55,17:10,19:30,21:45}
+ 16 | 2018-04-27 |  8 | The Rachel Divide          |      |    |    |     |   |    | 31 | 240 | IFC Center                     |  90 |     | {12:10,14:00,15:55,20:00}
+ 17 | 2018-04-27 | 30 | A Quiet Place              |      |  1 |    |  95 | O | B+ |  0 |  16 | Bow Tie Cinemas SONO Regent 8  |  90 |  21 | {10:45,13:10,15:20,17:40,20:00,22:30}
+ 18 | 2018-04-27 | 19 | Rampage                    |      |  1 |    |  50 | * | A- |  0 |  16 | Bow Tie Cinemas SONO Regent 8  | 107 |  14 | {10:40,11:40,14:20,16:50,19:30,22:10}
+ 19 | 2018-04-27 | 18 | Ready Player One           |      |  1 |    |  73 | O | A- |  0 |  16 | Bow Tie Cinemas SONO Regent 8  | 140 |  29 | {16:00,21:45}
+ 20 | 2018-04-27 | 13 | The Death of Stalin        |      |  1 |    |  96 | O |    | 28 |  12 | Garden Cinemas Norwalk         | 107 |  49 | {18:50}
+ 21 | 2018-04-27 | 11 | Isle of Dogs               |      |  1 |    |  90 | O |    | 16 |  90 | Avon Theatre Film Center, Inc. | 101 |  14 | {17:30,19:30}
+ 22 | 2018-04-27 | 10 | Aliens                     | 1986 |  1 |    |  98 | O | A  | 31 | 240 | IFC Center                     | 137 |     | {23:40}
+ 23 | 2018-04-27 |  9 | Beirut                     |      |  1 |    |  78 | O |    |  6 |  78 | Bow Tie Cinemas Landmark 9     | 109 |  16 | {14:50,17:20,20:00,22:35}
+ 24 | 2018-04-27 |  6 | Super Troopers 2           |      |  1 |    |  35 | * | B+ |  0 |  16 | Bow Tie Cinemas SONO Regent 8  | 103 |   7 | {12:00,14:30,17:00,19:20,21:55}
+ 25 | 2018-04-27 |  4 | Blockers                   |      |  1 |    |  82 | O | B  |  6 |  78 | Bow Tie Cinemas Landmark 9     | 102 |  21 | {13:50,16:20,19:00,21:40}
+ 26 | 2018-04-27 | -3 | The Endless                |      |  1 |    |  96 | O |    | 31 | 240 | IFC Center                     | 111 |  21 | {23:55}
+ 27 | 2018-04-27 | -6 | Black Panther              |      |  1 |    |  96 | O | A+ |  6 |  78 | Bow Tie Cinemas Landmark 9     | 134 |  70 | {13:30,16:30,19:30,22:25}
+ 28 | 2018-04-27 | 21 | I Feel Pretty              |      |    | t  |  34 | * | B+ |  0 |  16 | Bow Tie Cinemas SONO Regent 8  | 110 |   7 | {11:20,14:00,16:40,19:50,22:15}
+ 29 | 2018-04-27 | 21 | Pandas                     |      |    | t  | 100 | o |    | 15 |  24 | IMAX Maritime Aquarium Norwalk |  40 |  21 | {12:00,14:00,16:00}
+ 30 | 2018-04-27 | 18 | I Can Only Imagine         |      |    | t  |  70 | o | A+ |  6 |  80 | Showcase Cinemas Bridgeport    | 110 |  42 | {11:50,14:25,17:00,19:45,22:20}
+ 31 | 2018-04-27 | 14 | A Wrinkle in Time          |      |    | t  |  39 | * | B  |  6 |  80 | Showcase Cinemas Bridgeport    | 109 |  49 | {11:40,14:15,16:55,19:40,22:15}
+ 32 | 2018-04-27 |  9 | Sherlock Gnomes            |      |    | t  |  20 | * | B+ |  6 |  78 | Bow Tie Cinemas Landmark 9     |  86 |  35 | {13:20,15:50}
+(32 rows)
 
