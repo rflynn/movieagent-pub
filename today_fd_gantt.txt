@@ -23,8 +23,8 @@
  21 | Hector "El Father" Conoceras la Verdad   |     |   |    | -1----4
  22 | The Rider                                |  96 | O |  2 | -1-----5
  23 | Let the Sunshine In                      |  89 | o |    | -1-------7
- 24 | Disobedience                             |  89 | o |  3 | -1--------8
- 25 | Avengers: Infinity War                   |  87 | O | 11 | -1--------8
+ 24 | Disobedience                             |  88 | O |  3 | -1--------8
+ 25 | Avengers: Infinity War                   |  84 | O | 11 | -1--------8
  26 | Pandas                                   | 100 | o |    | -1--------- 10
  27 | Black Panther                            |  96 | O |  7 | -1--------- 10
  28 | The Death of Stalin                      |  96 | O |  7 | -1--------- 10
@@ -50,7 +50,7 @@
  48 | I Can Only Imagine                       |  70 | o |    | -1----   -8
  49 | Eraserhead                               |  91 | O |    | -1-     -7
  50 | The Endless                              |  97 | O |    | -1-     --  10
- 51 | Love After Love                          |  95 | o |    | -1-       - 10
+ 51 | Love After Love                          |  88 | o |    | -1-       - 10
  52 | Bungo Stray Dogs: Dead Apple             |     |   |  2 | -1  2
  53 | Coral Reef Adventure                     |  91 | o |    |   0
  54 | Flower                                   |  51 | * |    |    1
