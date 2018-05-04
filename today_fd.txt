@@ -1,105 +1,105 @@
  n  |     dt     | op |                 title                  | year | sn | mp | 3 | rt  | _ | cs | $  | ttm |          theatre_name           | dur | day |                                    showtimes                                    
 ----+------------+----+----------------------------------------+------+----+----+---+-----+---+----+----+-----+---------------------------------+-----+-----+---------------------------------------------------------------------------------
-  1 | 2018-05-04 | 38 | Batman                                 | 1989 |  1 |    |   |  72 | o |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 126 |     | {23:30}
-  2 | 2018-05-04 | 22 | Bad Samaritan                          |      |    |    |   |  55 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 107 |   0 | {11:30,14:00,16:40,19:20,22:00}
-  3 | 2018-05-04 | 20 | Pandas                                 |      |    |    |   | 100 | o |    | 15 |  24 | IMAX Maritime Aquarium Norwalk  |  40 |  28 | {12:00,14:00,16:00}
-  4 | 2018-05-04 | 19 | Oh Lucy!                               |      |    |    | 1 | 100 | O |    | 16 |  90 | Avon Theatre Film Center, Inc.  |  95 |     | {19:30}
-  5 | 2018-05-04 | 19 | Chappaquiddick                         |      |    |    |   |  78 | O |    |  6 |  80 | Fairfield Cinemas at Bullard Sq | 101 |  28 | {12:20,14:50,17:20,19:50,22:20}
-  6 | 2018-05-04 | 18 | Tully                                  |      |    |    |   |  92 | o |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  94 |   0 | {14:20,16:50,19:20,21:55}
-  7 | 2018-05-04 | 17 | Zama                                   |      |    |    |   |  93 | O |    | 31 | 240 | IFC Center                      | 115 |  21 | {10:50,14:40,17:15,19:45}
-  8 | 2018-05-04 | 17 | I Can Only Imagine                     |      |    |    |   |  70 | o |    |  6 |  80 | Showcase Cinemas Bridgeport     | 110 |  49 | {11:50,14:25,17:00,19:45,22:20}
-  9 | 2018-05-04 | 16 | Coral Reef Adventure                   |      |    |    |   |  91 | o |    | 15 |  24 | IMAX Maritime Aquarium Norwalk  |  45 |     | {11:00}
- 10 | 2018-05-04 | 16 | I Feel Pretty                          |      |    |    |   |  35 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 110 |  14 | {11:00,13:20,16:00,18:45,21:20}
- 11 | 2018-05-04 | 15 | RBG                                    |      |    |    |   |  90 | o |    | 29 | 180 | City Cinemas 1, 2 & 3           |  97 |   0 | {10:00,12:15,14:35,17:00,19:15,21:35}
- 12 | 2018-05-04 | 15 | Let the Sunshine In                    |      |    |    | 1 |  89 | o |    | 31 | 240 | IFC Center                      |  94 |   7 | {10:40,12:40,14:55,17:10,19:30,21:45}
- 13 | 2018-05-04 | 15 | Overboard                              |      |    |    |   |  14 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 112 |   0 | {11:40,14:20,16:50,19:30,22:10}
- 14 | 2018-05-04 | 14 | Lives Well Lived                       |      |    |    |   | 100 | o |    | 16 |  90 | Avon Theatre Film Center, Inc.  |  72 |     | {18:00}
- 15 | 2018-05-04 | 14 | Tampopo                                |      |    |    |   | 100 | O |    | 31 | 240 | IFC Center                      | 114 |     | {11:00}
- 16 | 2018-05-04 | 14 | Eraserhead                             |      |    |    |   |  91 | O |    | 31 | 240 | IFC Center                      |  90 |     | {00:25}
- 17 | 2018-05-04 | 14 | The 12th Man                           |      |    |    |   |  83 | o |    | 31 | 240 | IFC Center                      | 131 |   0 | {23:30}
- 18 | 2018-05-04 | 13 | Edward II                              |      |    |    |   | 100 | o |    | 31 | 240 | IFC Center                      |  91 |     | {10:45,15:00,19:20}
- 19 | 2018-05-04 | 13 | Love After Love                        |      |    |    |   |  88 | o |    | 26 | 160 | Criterion Cinemas               |  91 |     | {15:40,21:20}
- 20 | 2018-05-04 | 13 | Ghost Stories                          |      |    |    |   |  81 | O |    | 31 | 240 | IFC Center                      |  98 |  14 | {22:10}
- 21 | 2018-05-04 | 13 | Ismael's Ghosts                        |      |    |    |   |  60 | o |    | 26 | 160 | Pelham Picture House            | 135 |  42 | {20:30}
- 22 | 2018-05-04 | 11 | A Wrinkle in Time                      |      |    |    |   |  40 | * |    |  6 |  80 | Showcase Cinemas Bridgeport     | 109 |  56 | {12:20,14:50,17:15,19:45,22:10}
- 23 | 2018-05-04 | 10 | Cold Water                             |      |    |    |   |  58 | * |    | 31 | 240 | IFC Center                      |  93 |     | {12:35,17:00,21:25}
- 24 | 2018-05-04 | 10 | Sherlock Gnomes                        |      |    |    |   |  20 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  86 |  42 | {13:10,15:50}
- 25 | 2018-05-04 | 10 | Backyard Wilderness                    |      |    |    |   |     |   |    | 15 |  24 | IMAX Maritime Aquarium Norwalk  |  42 |     | {13:00,15:00}
- 26 | 2018-05-04 |  9 | Tyler Perry's Acrimony                 |      |    |    |   |  24 | * |    | 20 | 140 | Regal New Roc Stadium 18 IMAX & | 120 |  35 | {10:50,13:45,20:25}
- 27 | 2018-05-04 |  9 | Traffik                                |      |    |    |   |  22 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  96 |  14 | {16:00,21:45}
- 28 | 2018-05-04 |  9 | Blumhouse's Truth or Dare              |      |    |    |   |  15 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      | 100 |  21 | {19:50,22:15}
- 29 | 2018-05-04 |  9 | 102 Not Out                            |      |    |    |   |     |   |    |  6 |  80 | Showcase Cinemas Bridgeport     | 102 |     | {12:10,14:40,17:10,19:40,22:10}
- 30 | 2018-05-04 |  8 | Hector "El Father" Conoceras la Verdad |      |    |    |   |     |   |    | 20 | 140 | Regal New Roc Stadium 18 IMAX & |  91 |     | {11:50}
- 31 | 2018-05-04 |  8 | Lean on Pete                           |      |  1 |    | 2 |  91 | O |    |  6 |  80 | Fairfield Cinemas at Bullard Sq | 122 |  28 | {16:35,21:45}
- 32 | 2018-05-04 |  7 | A or B                                 |      |    |    |   |     |   |    | 31 | 200 | AMC Empire 25                   | 112 |     | {11:10,14:05,17:00,19:55,22:50}
- 33 | 2018-05-04 |  7 | The Trough                             |      |    |    |   |     |   |    | 31 | 200 | AMC Empire 25                   | 112 |     | {09:50,12:40,15:30,18:20,21:10}
- 34 | 2018-05-04 |  7 | The Desert Bride                       |      |    |    |   |     |   |    | 31 | 240 | IFC Center                      |  78 |     | {10:35,13:10,15:15,17:05,19:00,20:50}
- 35 | 2018-05-04 |  6 | You Were Never Really Here             |      |  1 |  1 | 3 |  86 | O |    | 28 |  12 | Garden Cinemas Norwalk          |  89 |  28 | {21:00}
- 36 | 2018-05-04 |  4 | Avengers: Infinity War                 |      |  1 |    |   |  84 | O |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 149 |   7 | {11:20,14:45,19:45,21:35,23:10,10:30,12:15,13:00,15:30,16:20,18:15,19:00,22:20}
- 37 | 2018-05-04 |  4 | A Quiet Place                          |      |  2 |  1 |   |  95 | O |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   |  90 |  28 | {10:40,13:50,16:10,18:30,21:00,23:20}
- 38 | 2018-05-04 |  3 | The Death of Stalin                    |      |  1 |    |   |  96 | O |    | 16 | 120 | AMC Loews Port Chester 14       | 107 |  56 | {11:20,14:00,16:45,19:40,22:10}
- 39 | 2018-05-04 |  3 | The Rider                              |      |  1 |    | 1 |  96 | O |    | 29 | 180 | City Cinemas 1, 2 & 3           | 104 |  21 | {10:45,13:05,15:30,17:50,20:15,22:35}
- 40 | 2018-05-04 |  3 | Isle of Dogs                           |      |  2 |    |   |  90 | O |    | 16 |  90 | Avon Theatre Film Center, Inc.  | 101 |  21 | {19:45}
- 41 | 2018-05-04 |  2 | Raging Bull                            |      |  1 |    |   |  95 | O |    | 31 | 240 | IFC Center                      | 128 |     | {00:00}
- 42 | 2018-05-04 |  0 | The Endless                            |      |  1 |  1 |   |  97 | O |    | 51 | 240 | IFC Center                      | 112 |  28 | {23:45}
- 43 | 2018-05-04 |  0 | Black Panther                          |      |  1 |    |   |  96 | O |    |  6 |  78 | Bow Tie Cinemas Landmark 9      | 134 |  77 | {13:30,16:30,19:30,22:25}
- 44 | 2018-05-04 |  0 | Disobedience                           |      |  1 |  1 |   |  88 | O |    | 46 | 210 | Angelika Film Center & Cafe     | 114 |   7 | {10:00,11:20,12:20,14:00,15:00,16:40,17:40,19:20,20:20,22:00,23:00,23:55}
- 45 | 2018-05-04 |  0 | Blockers                               |      |  1 |  1 |   |  83 | O |    | 16 |  78 | Bow Tie Cinemas Landmark 9      | 102 |  28 | {13:50,16:20,18:50,21:30}
- 46 | 2018-05-04 |  0 | Beirut                                 |      |  1 |  1 |   |  77 | O |    | 16 |  78 | Bow Tie Cinemas Landmark 9      | 109 |  23 | {14:50,17:20,20:00,22:35}
- 47 | 2018-05-04 |  0 | Ready Player One                       |      |  1 |    |   |  74 | O |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 140 |  36 | {10:50}
- 48 | 2018-05-04 |  0 | Gremlins 2: The New Batch              |      |  1 |    |   |  69 | o |    | 31 | 240 | IFC Center                      | 106 |     | {00:05}
- 49 | 2018-05-04 |  0 | Rampage                                |      |  1 |  1 |   |  51 | * |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   | 107 |  21 | {16:30,19:10}
- 50 | 2018-05-04 |  0 | Super Troopers 2                       |      |  1 |  1 |   |  35 | * |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   | 103 |  14 | {14:10}
-  1 | 2018-05-05 | 38 | Batman                                 | 1989 |  1 |    |   |  72 | o |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 126 |     | {23:30}
-  2 | 2018-05-05 | 29 | Willy Wonka and the Chocolate Factory  | 1971 |  1 |    |   |     |   |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 100 |     | {11:00}
+  1 | 2018-05-04 | 24 | Coral Reef Adventure                   | 2003 |    |    |   |  91 | o |    | 15 |  24 | IMAX Maritime Aquarium Norwalk  |  45 |     | {11:00}
+  2 | 2018-05-04 | 24 | Batman                                 | 1989 |  1 |    |   |  72 | o |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 126 |     | {23:30}
+  3 | 2018-05-04 | 22 | Bad Samaritan                          |      |    |    |   |  55 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 107 |   0 | {11:30,14:00,16:40,19:20,22:00}
+  4 | 2018-05-04 | 21 | Tampopo                                | 1986 |    |    |   | 100 | O |    | 31 | 240 | IFC Center                      | 114 |     | {11:00}
+  5 | 2018-05-04 | 21 | Eraserhead                             | 1982 |    |    |   |  91 | O |    | 31 | 240 | IFC Center                      |  90 |     | {00:25}
+  6 | 2018-05-04 | 20 | Pandas                                 |      |    |    |   | 100 | o |    | 15 |  24 | IMAX Maritime Aquarium Norwalk  |  40 |  28 | {12:00,14:00,16:00}
+  7 | 2018-05-04 | 20 | Tully                                  |      |    |    |   |  90 | O |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  94 |   0 | {14:20,16:50,19:20,21:55}
+  8 | 2018-05-04 | 19 | Oh Lucy!                               |      |    |    | 1 | 100 | O |    | 16 |  90 | Avon Theatre Film Center, Inc.  |  95 |     | {19:30}
+  9 | 2018-05-04 | 19 | Edward II                              | 1992 |    |    |   | 100 | o |    | 31 | 240 | IFC Center                      |  91 |     | {10:45,15:00,19:20}
+ 10 | 2018-05-04 | 19 | Chappaquiddick                         |      |    |    |   |  78 | O |    |  6 |  80 | Fairfield Cinemas at Bullard Sq | 101 |  28 | {12:20,14:50,17:20,19:50,22:20}
+ 11 | 2018-05-04 | 19 | Overboard                              |      |    |    |   |  31 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 112 |   0 | {11:40,14:20,16:50,19:30,22:10}
+ 12 | 2018-05-04 | 17 | Zama                                   |      |    |    |   |  93 | O |    | 31 | 240 | IFC Center                      | 115 |  21 | {10:50,14:40,17:15,19:45}
+ 13 | 2018-05-04 | 17 | I Can Only Imagine                     |      |    |    |   |  70 | o |    |  6 |  80 | Showcase Cinemas Bridgeport     | 110 |  49 | {11:50,14:25,17:00,19:45,22:20}
+ 14 | 2018-05-04 | 17 | Raging Bull                            | 1980 |  1 |    |   |  95 | O |    | 31 | 240 | IFC Center                      | 128 |     | {00:00}
+ 15 | 2018-05-04 | 16 | Let the Sunshine In                    |      |    |    | 1 |  92 | O |    | 31 | 240 | IFC Center                      |  94 |   7 | {10:40,12:40,14:55,17:10,19:30,21:45}
+ 16 | 2018-05-04 | 16 | Cold Water                             | 1994 |    |    |   |  58 | * |    | 31 | 240 | IFC Center                      |  93 |     | {12:35,17:00,21:25}
+ 17 | 2018-05-04 | 16 | I Feel Pretty                          |      |    |    |   |  34 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 110 |  14 | {11:00,13:20,16:00,18:45,21:20}
+ 18 | 2018-05-04 | 15 | RBG                                    |      |    |    |   |  93 | o |    | 29 | 180 | City Cinemas 1, 2 & 3           |  97 |   0 | {10:00,12:15,14:35,17:00,19:15,21:35}
+ 19 | 2018-05-04 | 15 | The 12th Man                           |      |    |    |   |  86 | o |    | 31 | 240 | IFC Center                      | 131 |   0 | {23:30}
+ 20 | 2018-05-04 | 14 | Lives Well Lived                       |      |    |    |   | 100 | o |    | 16 |  90 | Avon Theatre Film Center, Inc.  |  72 |     | {18:00}
+ 21 | 2018-05-04 | 14 | The Desert Bride                       |      |    |    |   |  80 | o |    | 31 | 240 | IFC Center                      |  78 |   0 | {10:35,13:10,15:15,17:05,19:00,20:50}
+ 22 | 2018-05-04 | 14 | Gremlins 2: The New Batch              | 1990 |  1 |    |   |  69 | o |    | 31 | 240 | IFC Center                      | 106 |     | {00:05}
+ 23 | 2018-05-04 | 13 | Love After Love                        |      |    |    |   |  88 | o |    | 26 | 160 | Criterion Cinemas               |  91 |     | {15:40,21:20}
+ 24 | 2018-05-04 | 13 | Ghost Stories                          |      |    |    |   |  81 | O |    | 31 | 240 | IFC Center                      |  98 |  14 | {22:10}
+ 25 | 2018-05-04 | 13 | Ismael's Ghosts                        |      |    |    |   |  60 | o |    | 26 | 160 | Pelham Picture House            | 135 |  42 | {20:30}
+ 26 | 2018-05-04 | 12 | Black Panther                          |      |    |    |   |  96 | O |    |  6 |  78 | Bow Tie Cinemas Landmark 9      | 134 |  77 | {13:30,16:30,19:30,22:25}
+ 27 | 2018-05-04 | 11 | A Wrinkle in Time                      |      |    |    |   |  40 | * |    |  6 |  80 | Showcase Cinemas Bridgeport     | 109 |  56 | {12:20,14:50,17:15,19:45,22:10}
+ 28 | 2018-05-04 | 10 | Sherlock Gnomes                        |      |    |    |   |  20 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  86 |  42 | {13:10,15:50}
+ 29 | 2018-05-04 | 10 | Backyard Wilderness                    |      |    |    |   |     |   |    | 15 |  24 | IMAX Maritime Aquarium Norwalk  |  42 |     | {13:00,15:00}
+ 30 | 2018-05-04 |  9 | Tyler Perry's Acrimony                 |      |    |    |   |  24 | * |    | 20 | 140 | Regal New Roc Stadium 18 IMAX & | 120 |  35 | {10:50,13:45,20:25}
+ 31 | 2018-05-04 |  9 | Traffik                                |      |    |    |   |  21 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  96 |  14 | {16:00,21:45}
+ 32 | 2018-05-04 |  9 | Blumhouse's Truth or Dare              |      |    |    |   |  15 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      | 100 |  21 | {19:50,22:15}
+ 33 | 2018-05-04 |  9 | 102 Not Out                            |      |    |    |   |     |   |    |  6 |  80 | Showcase Cinemas Bridgeport     | 102 |     | {12:10,14:40,17:10,19:40,22:10}
+ 34 | 2018-05-04 |  8 | Hector "El Father" Conoceras la Verdad |      |    |    |   |     |   |    | 20 | 140 | Regal New Roc Stadium 18 IMAX & |  91 |     | {11:50}
+ 35 | 2018-05-04 |  8 | The Trough                             |      |    |    |   |     |   |    | 31 | 200 | AMC Empire 25                   | 112 |   1 | {09:50,12:40,15:30,18:20,21:10}
+ 36 | 2018-05-04 |  8 | Lean on Pete                           |      |  1 |    | 2 |  91 | O |    |  6 |  80 | Fairfield Cinemas at Bullard Sq | 122 |  28 | {16:35,21:45}
+ 37 | 2018-05-04 |  7 | A or B                                 |      |    |    |   |     |   |    | 31 | 200 | AMC Empire 25                   | 112 |     | {11:10,14:05,17:00,19:55,22:50}
+ 38 | 2018-05-04 |  6 | You Were Never Really Here             |      |  1 |  1 | 3 |  86 | O |    | 28 |  12 | Garden Cinemas Norwalk          |  89 |  28 | {21:00}
+ 39 | 2018-05-04 |  4 | Avengers: Infinity War                 |      |  1 |    |   |  84 | O |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 149 |   7 | {11:20,14:45,19:45,21:35,23:10,10:30,12:15,13:00,15:30,16:20,18:15,19:00,22:20}
+ 40 | 2018-05-04 |  4 | A Quiet Place                          |      |  2 |  1 |   |  95 | O |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   |  90 |  28 | {10:40,13:50,16:10,18:30,21:00,23:20}
+ 41 | 2018-05-04 |  3 | The Death of Stalin                    |      |  1 |    |   |  96 | O |    | 16 | 120 | AMC Loews Port Chester 14       | 107 |  56 | {11:20,14:00,16:45,19:40,22:10}
+ 42 | 2018-05-04 |  3 | The Rider                              |      |  1 |    | 1 |  96 | O |    | 29 | 180 | City Cinemas 1, 2 & 3           | 104 |  21 | {10:45,13:05,15:30,17:50,20:15,22:35}
+ 43 | 2018-05-04 |  3 | Isle of Dogs                           |      |  2 |    |   |  90 | O |    | 16 |  90 | Avon Theatre Film Center, Inc.  | 101 |  21 | {19:45}
+ 44 | 2018-05-04 |  1 | The Endless                            |      |  1 |  1 |   |  97 | O |    | 51 | 240 | IFC Center                      | 112 |  28 | {23:45}
+ 45 | 2018-05-04 |  1 | Disobedience                           |      |  1 |  1 |   |  88 | O |    | 46 | 210 | Angelika Film Center & Cafe     | 114 |   7 | {10:00,11:20,12:20,14:00,15:00,16:40,17:40,19:20,20:20,22:00,23:00,23:55}
+ 46 | 2018-05-04 |  1 | Blockers                               |      |  1 |  1 |   |  83 | O |    | 16 |  78 | Bow Tie Cinemas Landmark 9      | 102 |  28 | {13:50,16:20,18:50,21:30}
+ 47 | 2018-05-04 |  1 | Beirut                                 |      |  1 |  1 |   |  77 | O |    | 16 |  78 | Bow Tie Cinemas Landmark 9      | 109 |  23 | {14:50,17:20,20:00,22:35}
+ 48 | 2018-05-04 |  1 | Ready Player One                       |      |  1 |    |   |  74 | O |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 140 |  36 | {10:50}
+ 49 | 2018-05-04 |  1 | Rampage                                |      |  1 |  1 |   |  51 | * |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   | 107 |  21 | {16:30,19:10}
+ 50 | 2018-05-04 |  1 | Super Troopers 2                       |      |  1 |  1 |   |  34 | * |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   | 103 |  14 | {14:10}
+  1 | 2018-05-05 | 25 | Willy Wonka and the Chocolate Factory  | 1971 |  1 |    |   |  91 | o |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 100 |     | {11:00}
+  2 | 2018-05-05 | 24 | Batman                                 | 1989 |  1 |    |   |  72 | o |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 126 |     | {23:30}
   3 | 2018-05-05 | 22 | Bad Samaritan                          |      |    |    |   |  55 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 107 |   1 | {11:30,14:00,16:40,19:20,22:00}
-  4 | 2018-05-05 | 20 | Pandas                                 |      |    |    |   | 100 | o |    | 15 |  24 | IMAX Maritime Aquarium Norwalk  |  40 |  29 | {12:00,14:00,16:00}
-  5 | 2018-05-05 | 19 | Oh Lucy!                               |      |    |    | 1 | 100 | O |    | 16 |  90 | Avon Theatre Film Center, Inc.  |  95 |     | {14:45,19:30}
-  6 | 2018-05-05 | 19 | Chappaquiddick                         |      |    |    |   |  78 | O |    | 21 |  20 | Darien Playhouse                | 101 |  29 | {14:30,16:30,19:15}
-  7 | 2018-05-05 | 18 | Tully                                  |      |    |    |   |  92 | o |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  94 |   1 | {11:50,14:20,16:50,19:20,21:55}
-  8 | 2018-05-05 | 17 | Zama                                   |      |    |    |   |  93 | O |    | 31 | 240 | IFC Center                      | 115 |  22 | {10:50,14:40,17:15,19:45}
-  9 | 2018-05-05 | 17 | I Can Only Imagine                     |      |    |    |   |  70 | o |    |  6 |  80 | Showcase Cinemas Bridgeport     | 110 |  50 | {11:50,14:25,17:00,19:45,22:20}
- 10 | 2018-05-05 | 16 | I Feel Pretty                          |      |    |    |   |  35 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 110 |  15 | {13:20,16:00,18:45,21:20}
- 11 | 2018-05-05 | 15 | RBG                                    |      |    |    |   |  90 | o |    | 29 | 180 | City Cinemas 1, 2 & 3           |  97 |   1 | {10:00,12:15,14:35,17:00,19:15,21:35}
- 12 | 2018-05-05 | 15 | Let the Sunshine In                    |      |    |    | 1 |  89 | o |    | 31 | 240 | IFC Center                      |  94 |   8 | {10:40,12:40,14:55,17:10,19:30,21:45}
- 13 | 2018-05-05 | 15 | Overboard                              |      |    |    |   |  14 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 112 |   1 | {11:40,14:20,16:50,19:30,22:10}
- 14 | 2018-05-05 | 14 | Lives Well Lived                       |      |    |    |   | 100 | o |    | 16 |  90 | Avon Theatre Film Center, Inc.  |  72 |     | {14:15,18:00}
- 15 | 2018-05-05 | 14 | Tampopo                                |      |    |    |   | 100 | O |    | 31 | 240 | IFC Center                      | 114 |     | {11:00}
- 16 | 2018-05-05 | 14 | Eraserhead                             |      |    |    |   |  91 | O |    | 31 | 240 | IFC Center                      |  90 |     | {00:25}
- 17 | 2018-05-05 | 14 | The 12th Man                           |      |    |    |   |  83 | o |    | 31 | 240 | IFC Center                      | 131 |   1 | {23:30}
- 18 | 2018-05-05 | 13 | Edward II                              |      |    |    |   | 100 | o |    | 31 | 240 | IFC Center                      |  91 |     | {10:45,15:00,19:20}
- 19 | 2018-05-05 | 13 | Love After Love                        |      |    |    |   |  88 | o |    | 26 | 160 | Criterion Cinemas               |  91 |     | {15:40,21:20}
- 20 | 2018-05-05 | 13 | Ghost Stories                          |      |    |    |   |  81 | O |    | 31 | 240 | IFC Center                      |  98 |  15 | {22:10}
- 21 | 2018-05-05 | 13 | Ismael's Ghosts                        |      |    |    |   |  60 | o |    | 26 | 160 | Pelham Picture House            | 135 |  43 | {17:30,20:15}
- 22 | 2018-05-05 | 11 | A Wrinkle in Time                      |      |    |    |   |  40 | * |    |  6 |  80 | Showcase Cinemas Bridgeport     | 109 |  57 | {12:20,14:50,17:15,19:45,22:10}
- 23 | 2018-05-05 | 10 | Cold Water                             |      |    |    |   |  58 | * |    | 31 | 240 | IFC Center                      |  93 |     | {12:35,17:00,21:25}
- 24 | 2018-05-05 | 10 | Sherlock Gnomes                        |      |    |    |   |  20 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  86 |  43 | {10:50,13:10,15:30}
- 25 | 2018-05-05 | 10 | Backyard Wilderness                    |      |    |    |   |     |   |    | 15 |  24 | IMAX Maritime Aquarium Norwalk  |  42 |     | {11:00,13:00,15:00}
- 26 | 2018-05-05 |  9 | Tyler Perry's Acrimony                 |      |    |    |   |  24 | * |    | 20 | 140 | Regal New Roc Stadium 18 IMAX & | 120 |  36 | {10:10,13:35,20:25}
- 27 | 2018-05-05 |  9 | Traffik                                |      |    |    |   |  22 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  96 |  15 | {13:20,21:45}
- 28 | 2018-05-05 |  9 | Blumhouse's Truth or Dare              |      |    |    |   |  15 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      | 100 |  22 | {17:30,19:50,22:15}
- 29 | 2018-05-05 |  9 | Bungo Stray Dogs: Dead Apple           |      |    |    |   |     |   |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  99 |     | {13:00}
- 30 | 2018-05-05 |  9 | 102 Not Out                            |      |    |    |   |     |   |    |  6 |  80 | Showcase Cinemas Bridgeport     | 102 |     | {12:10,14:40,17:10,19:40,22:10}
- 31 | 2018-05-05 |  8 | Hector "El Father" Conoceras la Verdad |      |    |    |   |     |   |    | 20 | 140 | Regal New Roc Stadium 18 IMAX & |  91 |     | {11:50}
- 32 | 2018-05-05 |  8 | Lean on Pete                           |      |  1 |    | 2 |  91 | O |    |  6 |  80 | Fairfield Cinemas at Bullard Sq | 122 |  29 | {16:35,21:45}
- 33 | 2018-05-05 |  7 | A or B                                 |      |    |    |   |     |   |    | 31 | 200 | AMC Empire 25                   | 112 |     | {11:10,14:05,17:00,19:55,22:50}
- 34 | 2018-05-05 |  7 | The Trough                             |      |    |    |   |     |   |    | 31 | 200 | AMC Empire 25                   | 112 |     | {09:50,12:40,15:30,18:20,21:10}
- 35 | 2018-05-05 |  7 | The Desert Bride                       |      |    |    |   |     |   |    | 31 | 240 | IFC Center                      |  78 |     | {10:35,13:10,15:15,17:05,19:00,20:50}
- 36 | 2018-05-05 |  6 | You Were Never Really Here             |      |  1 |  1 | 3 |  86 | O |    | 28 |  12 | Garden Cinemas Norwalk          |  89 |  29 | {14:30,21:00}
- 37 | 2018-05-05 |  4 | Avengers: Infinity War                 |      |  1 |    |   |  84 | O |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 149 |   8 | {11:20,14:45,19:45,21:35,23:10,10:30,12:15,13:00,15:30,16:20,18:15,19:00,22:20}
- 38 | 2018-05-05 |  4 | A Quiet Place                          |      |  2 |  1 |   |  95 | O |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   |  90 |  29 | {13:50,16:10,18:30,21:00,23:20}
- 39 | 2018-05-05 |  4 | Isle of Dogs                           |      |  2 |    |   |  90 | O |    |  6 |  80 | Fairfield Cinemas at Bullard Sq | 101 |  22 | {11:45,14:10,19:20}
- 40 | 2018-05-05 |  3 | The Death of Stalin                    |      |  1 |    |   |  96 | O |    | 16 | 120 | AMC Loews Port Chester 14       | 107 |  57 | {11:20,14:00,16:45,19:40,22:10}
- 41 | 2018-05-05 |  3 | The Rider                              |      |  1 |    | 1 |  96 | O |    | 29 | 180 | City Cinemas 1, 2 & 3           | 104 |  22 | {10:45,13:05,15:30,17:50,20:15,22:35}
- 42 | 2018-05-05 |  2 | Raging Bull                            |      |  1 |    |   |  95 | O |    | 31 | 240 | IFC Center                      | 128 |     | {00:00}
- 43 | 2018-05-05 |  0 | The Endless                            |      |  1 |  1 |   |  97 | O |    | 51 | 240 | IFC Center                      | 112 |  29 | {23:45}
- 44 | 2018-05-05 |  0 | Black Panther                          |      |  1 |    |   |  96 | O |    |  6 |  78 | Bow Tie Cinemas Landmark 9      | 134 |  78 | {10:00,16:30,19:30,22:25}
- 45 | 2018-05-05 |  0 | Disobedience                           |      |  1 |  1 |   |  88 | O |    | 46 | 210 | Angelika Film Center & Cafe     | 114 |   8 | {10:00,11:20,12:20,14:00,15:00,17:40,19:20,20:20,22:00,23:00,23:55,16:30}
- 46 | 2018-05-05 |  0 | Blockers                               |      |  1 |  1 |   |  83 | O |    | 16 |  78 | Bow Tie Cinemas Landmark 9      | 102 |  29 | {11:20,13:50,16:20,18:50,21:30}
- 47 | 2018-05-05 |  0 | Beirut                                 |      |  1 |  1 |   |  77 | O |    | 16 |  78 | Bow Tie Cinemas Landmark 9      | 109 |  24 | {12:10,14:50,17:20,20:00,22:35}
- 48 | 2018-05-05 |  0 | Ready Player One                       |      |  1 |    |   |  74 | O |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 140 |  37 | {10:50}
- 49 | 2018-05-05 |  0 | Gremlins 2: The New Batch              |      |  1 |    |   |  69 | o |    | 31 | 240 | IFC Center                      | 106 |     | {00:05}
- 50 | 2018-05-05 |  0 | Rampage                                |      |  1 |  1 |   |  51 | * |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   | 107 |  22 | {16:30,19:10}
- 51 | 2018-05-05 |  0 | Super Troopers 2                       |      |  1 |  1 |   |  35 | * |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   | 103 |  15 | {14:10}
+  4 | 2018-05-05 | 21 | Tampopo                                | 1986 |    |    |   | 100 | O |    | 31 | 240 | IFC Center                      | 114 |     | {11:00}
+  5 | 2018-05-05 | 21 | Eraserhead                             | 1982 |    |    |   |  91 | O |    | 31 | 240 | IFC Center                      |  90 |     | {00:25}
+  6 | 2018-05-05 | 20 | Pandas                                 |      |    |    |   | 100 | o |    | 15 |  24 | IMAX Maritime Aquarium Norwalk  |  40 |  29 | {12:00,14:00,16:00}
+  7 | 2018-05-05 | 20 | Tully                                  |      |    |    |   |  90 | O |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  94 |   1 | {11:50,14:20,16:50,19:20,21:55}
+  8 | 2018-05-05 | 19 | Oh Lucy!                               |      |    |    | 1 | 100 | O |    | 16 |  90 | Avon Theatre Film Center, Inc.  |  95 |     | {14:45,19:30}
+  9 | 2018-05-05 | 19 | Edward II                              | 1992 |    |    |   | 100 | o |    | 31 | 240 | IFC Center                      |  91 |     | {10:45,15:00,19:20}
+ 10 | 2018-05-05 | 19 | Chappaquiddick                         |      |    |    |   |  78 | O |    | 21 |  20 | Darien Playhouse                | 101 |  29 | {14:30,16:30,19:15}
+ 11 | 2018-05-05 | 19 | Overboard                              |      |    |    |   |  31 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 112 |   1 | {11:40,14:20,16:50,19:30,22:10}
+ 12 | 2018-05-05 | 17 | Zama                                   |      |    |    |   |  93 | O |    | 31 | 240 | IFC Center                      | 115 |  22 | {10:50,14:40,17:15,19:45}
+ 13 | 2018-05-05 | 17 | I Can Only Imagine                     |      |    |    |   |  70 | o |    |  6 |  80 | Showcase Cinemas Bridgeport     | 110 |  50 | {11:50,14:25,17:00,19:45,22:20}
+ 14 | 2018-05-05 | 17 | Raging Bull                            | 1980 |  1 |    |   |  95 | O |    | 31 | 240 | IFC Center                      | 128 |     | {00:00}
+ 15 | 2018-05-05 | 16 | Let the Sunshine In                    |      |    |    | 1 |  92 | O |    | 31 | 240 | IFC Center                      |  94 |   8 | {10:40,12:40,14:55,17:10,19:30,21:45}
+ 16 | 2018-05-05 | 16 | Cold Water                             | 1994 |    |    |   |  58 | * |    | 31 | 240 | IFC Center                      |  93 |     | {12:35,17:00,21:25}
+ 17 | 2018-05-05 | 16 | I Feel Pretty                          |      |    |    |   |  34 | * |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 110 |  15 | {13:20,16:00,18:45,21:20}
+ 18 | 2018-05-05 | 15 | RBG                                    |      |    |    |   |  93 | o |    | 29 | 180 | City Cinemas 1, 2 & 3           |  97 |   1 | {10:00,12:15,14:35,17:00,19:15,21:35}
+ 19 | 2018-05-05 | 15 | The 12th Man                           |      |    |    |   |  86 | o |    | 31 | 240 | IFC Center                      | 131 |   1 | {23:30}
+ 20 | 2018-05-05 | 14 | Lives Well Lived                       |      |    |    |   | 100 | o |    | 16 |  90 | Avon Theatre Film Center, Inc.  |  72 |     | {14:15,18:00}
+ 21 | 2018-05-05 | 14 | The Desert Bride                       |      |    |    |   |  80 | o |    | 31 | 240 | IFC Center                      |  78 |   1 | {10:35,13:10,15:15,17:05,19:00,20:50}
+ 22 | 2018-05-05 | 14 | Gremlins 2: The New Batch              | 1990 |  1 |    |   |  69 | o |    | 31 | 240 | IFC Center                      | 106 |     | {00:05}
+ 23 | 2018-05-05 | 13 | Love After Love                        |      |    |    |   |  88 | o |    | 26 | 160 | Criterion Cinemas               |  91 |     | {15:40,21:20}
+ 24 | 2018-05-05 | 13 | Ghost Stories                          |      |    |    |   |  81 | O |    | 31 | 240 | IFC Center                      |  98 |  15 | {22:10}
+ 25 | 2018-05-05 | 13 | Ismael's Ghosts                        |      |    |    |   |  60 | o |    | 26 | 160 | Pelham Picture House            | 135 |  43 | {17:30,20:15}
+ 26 | 2018-05-05 | 12 | Black Panther                          |      |    |    |   |  96 | O |    |  6 |  78 | Bow Tie Cinemas Landmark 9      | 134 |  78 | {10:00,16:30,19:30,22:25}
+ 27 | 2018-05-05 | 11 | A Wrinkle in Time                      |      |    |    |   |  40 | * |    |  6 |  80 | Showcase Cinemas Bridgeport     | 109 |  57 | {12:20,14:50,17:15,19:45,22:10}
+ 28 | 2018-05-05 | 10 | Sherlock Gnomes                        |      |    |    |   |  20 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  86 |  43 | {10:50,13:10,15:30}
+ 29 | 2018-05-05 | 10 | Backyard Wilderness                    |      |    |    |   |     |   |    | 15 |  24 | IMAX Maritime Aquarium Norwalk  |  42 |     | {11:00,13:00,15:00}
+ 30 | 2018-05-05 |  9 | Tyler Perry's Acrimony                 |      |    |    |   |  24 | * |    | 20 | 140 | Regal New Roc Stadium 18 IMAX & | 120 |  36 | {10:10,13:35,20:25}
+ 31 | 2018-05-05 |  9 | Traffik                                |      |    |    |   |  21 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  96 |  15 | {13:20,21:45}
+ 32 | 2018-05-05 |  9 | Blumhouse's Truth or Dare              |      |    |    |   |  15 | * |    |  6 |  78 | Bow Tie Cinemas Landmark 9      | 100 |  22 | {17:30,19:50,22:15}
+ 33 | 2018-05-05 |  9 | Bungo Stray Dogs: Dead Apple           |      |    |    |   |     |   |    |  6 |  78 | Bow Tie Cinemas Landmark 9      |  99 |     | {13:00}
+ 34 | 2018-05-05 |  9 | 102 Not Out                            |      |    |    |   |     |   |    |  6 |  80 | Showcase Cinemas Bridgeport     | 102 |     | {12:10,14:40,17:10,19:40,22:10}
+ 35 | 2018-05-05 |  8 | Hector "El Father" Conoceras la Verdad |      |    |    |   |     |   |    | 20 | 140 | Regal New Roc Stadium 18 IMAX & |  91 |     | {11:50}
+ 36 | 2018-05-05 |  8 | The Trough                             |      |    |    |   |     |   |    | 31 | 200 | AMC Empire 25                   | 112 |   2 | {09:50,12:40,15:30,18:20,21:10}
+ 37 | 2018-05-05 |  8 | Lean on Pete                           |      |  1 |    | 2 |  91 | O |    |  6 |  80 | Fairfield Cinemas at Bullard Sq | 122 |  29 | {16:35,21:45}
+ 38 | 2018-05-05 |  7 | A or B                                 |      |    |    |   |     |   |    | 31 | 200 | AMC Empire 25                   | 112 |     | {11:10,14:05,17:00,19:55,22:50}
+ 39 | 2018-05-05 |  6 | You Were Never Really Here             |      |  1 |  1 | 3 |  86 | O |    | 28 |  12 | Garden Cinemas Norwalk          |  89 |  29 | {14:30,21:00}
+ 40 | 2018-05-05 |  4 | Avengers: Infinity War                 |      |  1 |    |   |  84 | O |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 149 |   8 | {11:20,14:45,19:45,21:35,23:10,10:30,12:15,13:00,15:30,16:20,18:15,19:00,22:20}
+ 41 | 2018-05-05 |  4 | A Quiet Place                          |      |  2 |  1 |   |  95 | O |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   |  90 |  29 | {13:50,16:10,18:30,21:00,23:20}
+ 42 | 2018-05-05 |  4 | Isle of Dogs                           |      |  2 |    |   |  90 | O |    |  6 |  80 | Fairfield Cinemas at Bullard Sq | 101 |  22 | {11:45,14:10,19:20}
+ 43 | 2018-05-05 |  3 | The Death of Stalin                    |      |  1 |    |   |  96 | O |    | 16 | 120 | AMC Loews Port Chester 14       | 107 |  57 | {11:20,14:00,16:45,19:40,22:10}
+ 44 | 2018-05-05 |  3 | The Rider                              |      |  1 |    | 1 |  96 | O |    | 29 | 180 | City Cinemas 1, 2 & 3           | 104 |  22 | {10:45,13:05,15:30,17:50,20:15,22:35}
+ 45 | 2018-05-05 |  1 | The Endless                            |      |  1 |  1 |   |  97 | O |    | 51 | 240 | IFC Center                      | 112 |  29 | {23:45}
+ 46 | 2018-05-05 |  1 | Disobedience                           |      |  1 |  1 |   |  88 | O |    | 46 | 210 | Angelika Film Center & Cafe     | 114 |   8 | {10:00,11:20,12:20,14:00,15:00,17:40,19:20,20:20,22:00,23:00,23:55,16:30}
+ 47 | 2018-05-05 |  1 | Blockers                               |      |  1 |  1 |   |  83 | O |    | 16 |  78 | Bow Tie Cinemas Landmark 9      | 102 |  29 | {11:20,13:50,16:20,18:50,21:30}
+ 48 | 2018-05-05 |  1 | Beirut                                 |      |  1 |  1 |   |  77 | O |    | 16 |  78 | Bow Tie Cinemas Landmark 9      | 109 |  24 | {12:10,14:50,17:20,20:00,22:35}
+ 49 | 2018-05-05 |  1 | Ready Player One                       |      |  1 |    |   |  74 | O |    |  0 |  16 | Bow Tie Cinemas SoNo Regent 8   | 140 |  37 | {10:50}
+ 50 | 2018-05-05 |  1 | Rampage                                |      |  1 |  1 |   |  51 | * |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   | 107 |  22 | {16:30,19:10}
+ 51 | 2018-05-05 |  1 | Super Troopers 2                       |      |  1 |  1 |   |  34 | * |    | 13 |  16 | Bow Tie Cinemas SoNo Regent 8   | 103 |  15 | {14:10}
 (101 rows)
 

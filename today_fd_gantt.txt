@@ -1,28 +1,28 @@
  n  |                  title                   | rt  | _ | t  |   gantt_days   
 ----+------------------------------------------+-----+---+----+----------------
-  1 | Willy Wonka and the Chocolate Factory    |     |   |  2 | -1
+  1 | Willy Wonka and the Chocolate Factory    |  91 | o |  2 | -1
   2 | Edward II                                | 100 | o |    | -10
   3 | Lives Well Lived                         | 100 | o |    | -10
   4 | Oh Lucy!                                 | 100 | O |    | -10
   5 | Tampopo                                  | 100 | O |    | -10
   6 | Raging Bull                              |  95 | O |    | -10
-  7 | RBG                                      |  90 | o |  2 | -10
-  8 | The 12th Man                             |  83 | o |    | -10
-  9 | Batman                                   |  72 | o |  2 | -10
- 10 | Gremlins 2: The New Batch                |  69 | o |    | -10
- 11 | Ismael's Ghosts                          |  60 | o |    | -10
- 12 | Cold Water                               |  58 | * |    | -10
- 13 | 102 Not Out                              |     |   |  2 | -10
- 14 | A or B                                   |     |   |    | -10
- 15 | Edward II                                |     |   |    | -10
- 16 | The Desert Bride                         |     |   |    | -10
+  7 | RBG                                      |  93 | o |  2 | -10
+  8 | The 12th Man                             |  86 | o |    | -10
+  9 | The Desert Bride                         |  80 | o |    | -10
+ 10 | Batman                                   |  72 | o |  2 | -10
+ 11 | Gremlins 2: The New Batch                |  69 | o |    | -10
+ 12 | Ismael's Ghosts                          |  60 | o |    | -10
+ 13 | Cold Water                               |  58 | * |    | -10
+ 14 | 102 Not Out                              |     |   |  2 | -10
+ 15 | A or B                                   |     |   |    | -10
+ 16 | Edward II                                |     |   |    | -10
  17 | The Trough                               |     |   |    | -10
- 18 | Tully                                    |  92 | o | 10 | -1-1
+ 18 | Tully                                    |  90 | O | 10 | -1-1
  19 | Bad Samaritan                            |  55 | * |  7 | -1-1
- 20 | Overboard                                |  14 | * |  6 | -1-1
+ 20 | Overboard                                |  31 | * |  6 | -1-1
  21 | Hector "El Father" Conoceras la Verdad   |     |   |    | -1----4
  22 | The Rider                                |  96 | O |  2 | -1-----5
- 23 | Let the Sunshine In                      |  89 | o |    | -1-------7
+ 23 | Let the Sunshine In                      |  92 | O |    | -1-------7
  24 | Disobedience                             |  88 | O |  3 | -1--------8
  25 | Avengers: Infinity War                   |  84 | O | 11 | -1--------8
  26 | Pandas                                   | 100 | o |    | -1--------- 10
@@ -39,10 +39,10 @@
  37 | Beirut                                   |  77 | O |  6 | -1--------- 10
  38 | Ready Player One                         |  74 | O |  8 | -1--------- 10
  39 | Rampage                                  |  51 | * |  7 | -1--------- 10
- 40 | I Feel Pretty                            |  35 | * |  9 | -1--------- 10
- 41 | Super Troopers 2                         |  35 | * |  7 | -1--------- 10
+ 40 | I Feel Pretty                            |  34 | * |  9 | -1--------- 10
+ 41 | Super Troopers 2                         |  34 | * |  7 | -1--------- 10
  42 | Tyler Perry's Acrimony                   |  24 | * |  3 | -1--------- 10
- 43 | Traffik                                  |  22 | * |  4 | -1--------- 10
+ 43 | Traffik                                  |  21 | * |  4 | -1--------- 10
  44 | Sherlock Gnomes                          |  20 | * |  3 | -1--------- 10
  45 | Blumhouse's Truth or Dare                |  15 | * |  7 | -1--------- 10
  46 | Backyard Wilderness                      |     |   |    | -1--------- 10
@@ -56,7 +56,7 @@
  54 | Flower                                   |  51 | * |    |    1
  55 | Annie Hall                               |  97 | O |    |    1-----7
  56 | Coldwater                                |  58 | * |    |    1-----7
- 57 | Kings                                    |  16 | * |    |    1-----7
+ 57 | Kings                                    |  14 | * |    |    1-----7
  58 | Da One That Ghost Away                   |     |   |    |    1-----7
  59 | Sgt. Stubby: An American Hero            |  81 | o |  3 |    1------- 10
  60 | Labyrinth (1986) Event                   |  68 | o |  3 |    1-- 5
@@ -70,7 +70,7 @@
  68 | Aliens                                   |  98 | O |    |         67
  69 | A Taxi Driver                            |  95 | o |    |         67
  70 | Born to Be Wild                          |     |   |    |          7
- 71 | Final Portrait                           |  72 | O |    |           8
+ 71 | Final Portrait                           |  73 | O |    |           8
  72 | Finding Your Feet                        |  70 | o |    |           8
  73 | An Evening With Brent Green              |     |   |    |           8
  74 | Avengers: Infinity War Opening Night Fan |     |   |  2 |           8
@@ -82,10 +82,10 @@
  80 | Beyond the Clouds                        |  63 | o |    |           8 10
  81 | Cake                                     |     |   |    |           8 10
  82 | Dude's Manual                            |     |   |    |           8 10
- 83 | The Weather Underground                  |  91 | O |    |             -
- 84 | 44 Pages                                 |  80 | o |    |             -
- 85 | The Miracle Season                       |  44 | * |    |             -
- 86 | Pacific Rim Uprising                     |  43 | * |    |             -
- 87 | Fragments of Truth                       |     |   |    |             -
+ 83 | The Weather Underground                  |  91 | O |    |             10
+ 84 | 44 Pages                                 |  80 | o |    |             10
+ 85 | The Miracle Season                       |  46 | * |    |             10
+ 86 | Pacific Rim Uprising                     |  43 | * |    |             10
+ 87 | Fragments of Truth                       |     |   |    |             10
 (87 rows)
 
