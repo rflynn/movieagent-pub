@@ -1,10 +1,11 @@
- n |     dt     | op |         title          | year | sn | no | rt | _ | cs | $  | ttm |         theatre_name          | dur | day |            showtimes            
----+------------+----+------------------------+------+----+----+----+---+----+----+-----+-------------------------------+-----+-----+---------------------------------
- 1 | 2018-05-13 | 16 | Life of the Party      |      |    |    | 42 | * | B  |  0 |  16 | Bow Tie Cinemas SONO Regent 8 |     |   2 | {12:00,14:30,17:00,19:30,22:00}
- 2 | 2018-05-13 | 13 | RBG                    |      |    |    | 93 | O |    | 31 | 200 | AMC Empire 25                 |  97 |   9 | {10:45,13:30,16:15,19:00,21:45}
- 3 | 2018-05-13 | 10 | Book Club              |      |    |    |    |   |    | 16 | 120 | AMC Loews Port Chester 14     |     |     | {}
- 4 | 2018-05-13 | 10 | Deadpool 2             |      |    |    |    |   |    | 16 | 120 | AMC Loews Port Chester 14     |     |     | {}
- 5 | 2018-05-13 |  9 | Breaking In            |      |    |    | 30 | * | B  |  6 |  80 | Showcase Cinemas Bridgeport   |     |   2 | {12:50,15:05,17:25,19:45}
- 6 | 2018-05-13 |  1 | Avengers: Infinity War |      |  2 |    | 84 | O | A  | 29 | 120 | AMC Loews Port Chester 14     | 149 |  16 | {11:30,15:15,19:00,22:45}
-(6 rows)
+ n |     dt     | op |          title          | year | sn | no | rt | _ | cs | $  | ttm |         theatre_name          | dur | day |            showtimes            
+---+------------+----+-------------------------+------+----+----+----+---+----+----+-----+-------------------------------+-----+-----+---------------------------------
+ 1 | 2018-05-14 | 16 | Life of the Party       |      |    |    | 40 | * | B  |  0 |  16 | Bow Tie Cinemas SONO Regent 8 |     |   3 | {14:30,17:00,19:30,22:00}
+ 2 | 2018-05-14 | 13 | RBG                     |      |    |    | 93 | O |    | 31 | 200 | AMC Empire 25                 |  97 |  10 | {10:45,13:30,16:15,19:00,21:45}
+ 3 | 2018-05-14 | 11 | Solo: A Star Wars Story |      |    |    |    |   |    | 31 | 200 | AMC Empire 25                 |     |     | {}
+ 4 | 2018-05-14 |  9 | Breaking In             |      |    |    | 26 | * | B  |  6 |  80 | Showcase Cinemas Bridgeport   |     |   3 | {17:25,19:45}
+ 5 | 2018-05-14 |  9 | Book Club               |      |    |    |    |   |    | 31 | 200 | AMC Empire 25                 |     |     | {}
+ 6 | 2018-05-14 |  9 | Deadpool 2              |      |    |    |    |   |    | 31 | 200 | AMC Empire 25                 |     |     | {}
+ 7 | 2018-05-14 |  1 | Avengers: Infinity War  |      |  2 |    | 84 | O | A  | 29 | 120 | AMC Loews Port Chester 14     | 149 |  17 | {11:30,15:15,19:00,22:45}
+(7 rows)
 
