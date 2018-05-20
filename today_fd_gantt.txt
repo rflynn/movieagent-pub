@@ -1,160 +1,163 @@
-  n  |                  title                   | rt  | _ | t  |           gantt_days           
------+------------------------------------------+-----+---+----+--------------------------------
-   1 | Porco Rosso – Studio Ghibli Fest 2018    |     |   |  2 | -1
-   2 | Saving Brinton                           |  88 | o |    | -1-1
-   3 | That Summer                              |  88 | o |    | -1-1
-   4 | Privilege                                |  50 | * |    | -1-1
-   5 | Show Dogs                                |  33 | * |  7 | -1-1
-   6 | Carter & June                            |   0 | * |    | -1-1
-   7 | Dark Crimes                              |   0 | * |    | -1-1
-   8 | Champion                                 |     |   |    | -1-1
-   9 | First Reformed                           |  97 | O |  2 | -1--2
-  10 | Pope Francis - A Man of His Word         |  86 | o |  8 | -1--2
-  11 | Deadpool 2                               |  84 | O | 10 | -1--2
-  12 | On Chesil Beach                          |  70 | o |  2 | -1--2
-  13 | Book Club                                |  59 | * | 10 | -1--2
-  14 | Raazi                                    | 100 | o |  2 | -1--------8
-  15 | Revenge                                  |  90 | O |    | -1--------8
-  16 | Boom for Real: The Late Teenage Years of |  88 | o |    | -1--------8
-  17 | The Seagull                              |  76 | o |    | -1--------8
-  18 | Beast                                    |  92 | O |    | -1---------9
-  19 | Life of the Party                        |  39 | * |  8 | -1---------9
-  20 | Breaking In                              |  26 | * |  7 | -1---------9
-  21 | Nothing to Lose                          |     |   |  3 | -1---------9
-  22 | Call Me by Your Name                     |  95 | O |    | -1--------------14
-  23 | RBG                                      |  93 | O |  8 | -1---------------15
-  24 | 102 Not Out                              |  71 | o |  2 | -1---------------15
-  25 | Tully                                    |  87 | O | 10 | -1----------------16
-  26 | Overboard                                |  29 | * |  6 | -1----------------16
-  27 | Let the Sunshine In                      |  92 | O |  2 | -1----------------------22
-  28 | Disobedience                             |  88 | O |  9 | -1-----------------------23
-  29 | Avengers: Infinity War                   |  84 | O | 11 | -1-----------------------23
-  30 | Pandas                                   | 100 | o |    | -1------------------------ 25
-  31 | Black Panther                            |  97 | O |  7 | -1------------------------ 25
-  32 | The Death of Stalin                      |  96 | O |  7 | -1------------------------ 25
-  33 | A Quiet Place                            |  95 | O |  9 | -1------------------------ 25
-  34 | Zama                                     |  93 | O |    | -1------------------------ 25
-  35 | Isle of Dogs                             |  90 | O |  6 | -1------------------------ 25
-  36 | Chappaquiddick                           |  79 | O |  7 | -1------------------------ 25
-  37 | Beirut                                   |  77 | O |  6 | -1------------------------ 25
-  38 | Ready Player One                         |  74 | O |  8 | -1------------------------ 25
-  39 | Rampage                                  |  52 | * |  7 | -1------------------------ 25
-  40 | I Feel Pretty                            |  33 | * |  9 | -1------------------------ 25
-  41 | Sherlock Gnomes                          |  26 | * |  3 | -1------------------------ 25
-  42 | Blumhouse's Truth or Dare                |  14 | * |  7 | -1------------------------ 25
-  43 | Backyard Wilderness                      |     |   |    | -1------------------------ 25
-  44 | A Wrinkle in Time                        |  39 | * |  5 | -1--------------------  -23
-  45 | Love, Simon                              |  92 | O |  3 | -1--------------- -      - 25
-  46 | Blockers                                 |  83 | O |  7 | -1-- --------------------- 25
-  47 | Grace Jones: Bloodlight and Bami         |  84 | O |    | -1--    -7
-  48 | Strangers on the Earth                   |  78 | o |    | -1 -------------14
-  49 | The Royal Wedding                        |     |   |    |   0
-  50 | The King of Comedy                       |  90 | O |    |   01
-  51 | A Clockwork Orange                       |  89 | O |    |   01
-  52 | Ghost Stories                            |  82 | O |    |   0----------------------- 25
-  53 | Pulp Fiction                             |  94 | O |    |   0-     -8
-  54 | Gremlins 2: The New Batch                |  69 | o |    |   0-     --     -15
-  55 | Coral Reef Adventure                     |  91 | o |    |    1             15
-  56 | Salaam Bombay!                           |  93 | o |    |     2
-  57 | The Escape                               |  93 | o |    |     2
-  58 | The Escape                               |  93 | o |    |     2
-  59 | Death Wish                               |  17 | * |    |     2
-  60 | Amazon Adventure                         |     |   |    |     2
-  61 | Deadpool's Double Feature                |     |   |  7 |     2
-  62 | NT Live: Macbeth                         |     |   |  2 |     2
-  63 | The Snowman Trek                         |     |   |  2 |     2
-  64 | Tropical Rainforest                      |     |   |    |     2
-  65 | What Haunts Us                           | 100 | o |    |     2-----8
-  66 | Class Rank                               |  83 | o |    |     2-----8
-  67 | Lu Over the Wall                         |  74 | o |  2 |     2-----8
-  68 | Anything                                 |  62 | o |    |     2-----8
-  69 | Racer and the Jailbird                   |  38 | * |    |     2-----8
-  70 | Terminal                                 |  24 | * |    |     2-----8
-  71 | Born Guilty                              |     |   |    |     2-----8
-  72 | I Am Your Mom                            |     |   |    |     2-----8
-  73 | The Last Horsemen of New York            |     |   |    |     2-----8
-  74 | The Desert Bride                         |  81 | o |    |     2------------15
-  75 | Bad Samaritan                            |  53 | * |  7 |     2-------------16
-  76 | The Rider                                |  97 | O |  2 |     2-----------------20
-  77 | Super Troopers 2                         |  34 | * |  7 |     2--------------------- 25
-  78 | Coldwater                                |  60 | o |    |     2------       ------22
-  79 | Itzhak                                   |  91 | o |    |     2------        17
-  80 | The Iron Triangle                        |     |   |    |     2 - 6
-  81 | Dream Big: Engineering Our World         | 100 | o |    |     2 -   - 10
-  82 | Film Club With Marshall Fine             |     |   |    |      3
-  83 | The Escape                               |  93 | o |    |      3----8
-  84 | The Escape                               |  93 | o |    |      3----8
-  85 | Charlie vs. Goliath                      |     |   |    |      3 5
-  86 | Sunset Boulevard (1950) presented by TCM |  98 | O |  2 |      3  6
-  87 | The Living Sea                           |     |   |    |      3                   23
-  88 | The Gospel According to André            |  83 | o |    |       4
-  89 | American Dream: Detroit                  |     |   |  2 |       4
-  90 | Naz & Maalik                             |  78 | o |    |        5
-  91 | No Man's Land                            |  93 | O |    |         6
-  92 | Titanic                                  |  88 | O |    |         6  9
-  93 | After Hours                              |  88 | O |    |          78
-  94 | Ferris Bueller's Day Off                 |  79 | O |    |          78
-  95 | Raging Bull                              |  95 | O |    |          7-     -15
-  96 | Puffs: Filmed Live Off Broadway          |     |   |  2 |          7  10
-  97 | The Dark Crystal (1982) Event            |  73 | o |    |            9
-  98 | DIGIMON ADVENTURE tri.: Coexistence      |     |   |  2 |            9
-  99 | Rogers Park                              | 100 | o |    |            9----14
- 100 | The Cleanse                              |  80 | o |    |            9----14
- 101 | Everything Else                          |     |   |    |            9----14
- 102 | The Con is On                            |     |   |    |            9----14
- 103 | Edward II                                | 100 | o |    |            9-----15
- 104 | Lives Well Lived                         | 100 | o |    |            9-----15
- 105 | Oh Lucy!                                 | 100 | O |    |            9-----15
- 106 | Cold Water                               |  60 | o |    |            9-----15
- 107 | Ismael's Ghosts                          |  60 | o |    |            9-----15
- 108 | A or B                                   |     |   |    |            9-----15
- 109 | Edward II                                |     |   |    |            9-----15
- 110 | The Trough                               |     |   |    |            9-----15
- 111 | Lean on Pete                             |  92 | O |  4 |            9-------------- 25
- 112 | You Were Never Really Here               |  86 | O |  2 |            9-------------- 25
- 113 | Traffik                                  |  20 | * |  4 |            9-------------- 25
- 114 | Love After Love                          |  88 | o |    |            9------       - 25
- 115 | The 12th Man                             |  82 | o |    |            9--- -15
- 116 | Deep Sea                                 |  91 | o |    |             1011
- 117 | Hector "El Father" Conoceras la Verdad   |     |   |    |             10--------19
- 118 | Tyler Perry's Acrimony                   |  23 | * |  3 |             10------------- 25
- 119 | I Can Only Imagine                       |  70 | o |    |             10--------   -23
- 120 | The Boxcar Children – Surprise Island    |     |   |  2 |              11
- 121 | Tampopo                                  | 100 | O |    |               12--15
- 122 | Willy Wonka and the Chocolate Factory    |  91 | o |  2 |                1314
- 123 | Bungo Stray Dogs: Dead Apple             |     |   |  2 |                13-  17
- 124 | Batman                                   |  72 | o |  2 |                 1415
- 125 | Eraserhead                               |  91 | O |    |                 14-     -22
- 126 | The Endless                              |  97 | O |    |                 14-     --  25
- 127 | Flower                                   |  51 | * |    |                   16
- 128 | Annie Hall                               |  97 | O |    |                   16-----22
- 129 | Kings                                    |  13 | * |    |                   16-----22
- 130 | Da One That Ghost Away                   |     |   |    |                   16-----22
- 131 | Sgt. Stubby: An American Hero            |  81 | o |  3 |                   16------- 25
- 132 | Labyrinth (1986) Event                   |  68 | o |  3 |                   16-- 20
- 133 | October                                  |  86 | o |    |                   16--   -- 25
- 134 | Like Arrows                              |     |   |  2 |                   16 18
- 135 | Secret Ocean                             |     |   |    |                    17
- 136 | The Metropolitan Opera: Cendrillon Encor |     |   |  2 |                    17
- 137 | The Metropolitan Opera: Cendrillon       |     |   |    |                        21
- 138 | Aliens                                   |  98 | O |    |                        2122
- 139 | A Taxi Driver                            |  95 | o |    |                        2122
- 140 | Born to Be Wild                          |     |   |    |                         22
- 141 | Final Portrait                           |  73 | O |    |                          23
- 142 | Finding Your Feet                        |  70 | o |    |                          23
- 143 | An Evening With Brent Green              |     |   |    |                          23
- 144 | Avengers: Infinity War Opening Night Fan |     |   |  2 |                          23
- 145 | Bharat Ane Nenu                          |     |   |    |                          23
- 146 | After Auschwitz                          | 100 | o |    |                          23 25
- 147 | Little Pink House                        |  85 | o |    |                          23 25
- 148 | Borg vs McEnroe                          |  83 | O |    |                          23 25
- 149 | Beyond the Clouds                        |  63 | o |    |                          23 25
- 150 | Cake                                     |     |   |    |                          23 25
- 151 | Dude's Manual                            |     |   |    |                          23 25
- 152 | The Weather Underground                  |  91 | O |    |                            25
- 153 | 44 Pages                                 |  80 | o |    |                            25
- 154 | The Miracle Season                       |  47 | * |    |                            25
- 155 | Pacific Rim Uprising                     |  43 | * |    |                            25
- 156 | Fragments of Truth                       |     |   |    |                            25
-(156 rows)
+  n  |                  title                   | rt  | _ | t  |           gantt_days            
+-----+------------------------------------------+-----+---+----+---------------------------------
+   1 | All That Jazz                            |     |   |    | -1
+   2 | Fame                                     |     |   |    | -1
+   3 | Royal Opera House: Macbeth               |     |   |    | -1
+   4 | Porco Rosso – Studio Ghibli Fest 2018    |     |   |  2 | -10
+   5 | Saving Brinton                           |  88 | o |    | -1--2
+   6 | That Summer                              |  88 | o |    | -1--2
+   7 | Show Dogs                                |  26 | * |  7 | -1--2
+   8 | Carter & June                            |   0 | * |    | -1--2
+   9 | Dark Crimes                              |   0 | * |    | -1--2
+  10 | Champion                                 |     |   |    | -1--2
+  11 | First Reformed                           |  97 | O |  2 | -1---3
+  12 | Pope Francis - A Man of His Word         |  87 | o |  8 | -1---3
+  13 | Deadpool 2                               |  84 | O | 10 | -1---3
+  14 | On Chesil Beach                          |  67 | o |  2 | -1---3
+  15 | Book Club                                |  59 | * | 10 | -1---3
+  16 | Raazi                                    | 100 | o |  2 | -1---------9
+  17 | Revenge                                  |  90 | O |    | -1---------9
+  18 | Boom for Real: The Late Teenage Years of |  88 | o |    | -1---------9
+  19 | The Seagull                              |  76 | o |    | -1---------9
+  20 | Beast                                    |  92 | O |    | -1----------10
+  21 | Life of the Party                        |  39 | * |  8 | -1----------10
+  22 | Breaking In                              |  26 | * |  7 | -1----------10
+  23 | Nothing to Lose                          |     |   |  3 | -1----------10
+  24 | Call Me by Your Name                     |  95 | O |    | -1---------------15
+  25 | RBG                                      |  93 | O |  8 | -1----------------16
+  26 | 102 Not Out                              |  71 | o |  2 | -1----------------16
+  27 | Tully                                    |  87 | O | 10 | -1-----------------17
+  28 | Overboard                                |  29 | * |  6 | -1-----------------17
+  29 | Let the Sunshine In                      |  92 | O |  2 | -1-----------------------23
+  30 | Disobedience                             |  86 | O |  9 | -1------------------------24
+  31 | Avengers: Infinity War                   |  84 | O | 11 | -1------------------------24
+  32 | Pandas                                   | 100 | o |    | -1------------------------- 26
+  33 | Black Panther                            |  97 | O |  7 | -1------------------------- 26
+  34 | The Death of Stalin                      |  96 | O |  7 | -1------------------------- 26
+  35 | A Quiet Place                            |  95 | O |  9 | -1------------------------- 26
+  36 | Zama                                     |  93 | O |    | -1------------------------- 26
+  37 | Isle of Dogs                             |  90 | O |  6 | -1------------------------- 26
+  38 | Chappaquiddick                           |  79 | O |  7 | -1------------------------- 26
+  39 | Beirut                                   |  77 | O |  6 | -1------------------------- 26
+  40 | Ready Player One                         |  74 | O |  8 | -1------------------------- 26
+  41 | Rampage                                  |  52 | * |  7 | -1------------------------- 26
+  42 | I Feel Pretty                            |  33 | * |  9 | -1------------------------- 26
+  43 | Sherlock Gnomes                          |  26 | * |  3 | -1------------------------- 26
+  44 | Blumhouse's Truth or Dare                |  14 | * |  7 | -1------------------------- 26
+  45 | Backyard Wilderness                      |     |   |    | -1------------------------- 26
+  46 | A Wrinkle in Time                        |  39 | * |  5 | -1---------------------  -24
+  47 | Love, Simon                              |  92 | O |  3 | -1---------------- -      - 26
+  48 | Blockers                                 |  83 | O |  7 | -1--- --------------------- 26
+  49 | Grace Jones: Bloodlight and Bami         |  84 | O |    | -1---    -8
+  50 | Strangers on the Earth                   |  78 | o |    | -1- -------------15
+  51 | The King of Comedy                       |  90 | O |    | -1 -2
+  52 | Privilege                                |  50 | * |    |   0-2
+  53 | The Royal Wedding                        |     |   |    |    1
+  54 | A Clockwork Orange                       |  89 | O |    |    12
+  55 | Ghost Stories                            |  82 | O |    |    1----------------------- 26
+  56 | Pulp Fiction                             |  94 | O |    |    1-     -9
+  57 | Gremlins 2: The New Batch                |  69 | o |    |    1-     --     -16
+  58 | Coral Reef Adventure                     |  91 | o |    |     2             16
+  59 | Salaam Bombay!                           |  93 | o |    |      3
+  60 | The Escape                               |  93 | o |    |      3
+  61 | The Escape                               |  93 | o |    |      3
+  62 | Death Wish                               |  17 | * |    |      3
+  63 | Amazon Adventure                         |     |   |    |      3
+  64 | Deadpool's Double Feature                |     |   |  7 |      3
+  65 | NT Live: Macbeth                         |     |   |  2 |      3
+  66 | The Snowman Trek                         |     |   |  2 |      3
+  67 | Tropical Rainforest                      |     |   |    |      3
+  68 | What Haunts Us                           | 100 | o |    |      3-----9
+  69 | Class Rank                               |  83 | o |    |      3-----9
+  70 | Lu Over the Wall                         |  74 | o |  2 |      3-----9
+  71 | Anything                                 |  62 | o |    |      3-----9
+  72 | Racer and the Jailbird                   |  38 | * |    |      3-----9
+  73 | Terminal                                 |  24 | * |    |      3-----9
+  74 | Born Guilty                              |     |   |    |      3-----9
+  75 | I Am Your Mom                            |     |   |    |      3-----9
+  76 | The Last Horsemen of New York            |     |   |    |      3-----9
+  77 | The Desert Bride                         |  81 | o |    |      3------------16
+  78 | Bad Samaritan                            |  53 | * |  7 |      3-------------17
+  79 | The Rider                                |  97 | O |  2 |      3-----------------21
+  80 | Super Troopers 2                         |  34 | * |  7 |      3--------------------- 26
+  81 | Coldwater                                |  60 | o |    |      3------       ------23
+  82 | Itzhak                                   |  91 | o |    |      3------        18
+  83 | The Iron Triangle                        |     |   |    |      3 - 7
+  84 | Dream Big: Engineering Our World         | 100 | o |    |      3 -   - 11
+  85 | Film Club With Marshall Fine             |     |   |    |       4
+  86 | The Escape                               |  93 | o |    |       4----9
+  87 | The Escape                               |  93 | o |    |       4----9
+  88 | Charlie vs. Goliath                      |     |   |    |       4 6
+  89 | Sunset Boulevard (1950) presented by TCM |  98 | O |  2 |       4  7
+  90 | The Living Sea                           |     |   |    |       4                   24
+  91 | The Gospel According to André            |  83 | o |    |        5
+  92 | American Dream: Detroit                  |     |   |  2 |        5
+  93 | Naz & Maalik                             |  78 | o |    |         6
+  94 | No Man's Land                            |  93 | O |    |          7
+  95 | Titanic                                  |  88 | O |    |          7  10
+  96 | After Hours                              |  88 | O |    |           89
+  97 | Ferris Bueller's Day Off                 |  79 | O |    |           89
+  98 | Raging Bull                              |  95 | O |    |           8-     -16
+  99 | Puffs: Filmed Live Off Broadway          |     |   |  2 |           8  11
+ 100 | The Dark Crystal (1982) Event            |  73 | o |    |             10
+ 101 | DIGIMON ADVENTURE tri.: Coexistence      |     |   |  2 |             10
+ 102 | Rogers Park                              | 100 | o |    |             10----15
+ 103 | The Cleanse                              |  80 | o |    |             10----15
+ 104 | Everything Else                          |     |   |    |             10----15
+ 105 | The Con is On                            |     |   |    |             10----15
+ 106 | Edward II                                | 100 | o |    |             10-----16
+ 107 | Lives Well Lived                         | 100 | o |    |             10-----16
+ 108 | Oh Lucy!                                 | 100 | O |    |             10-----16
+ 109 | Cold Water                               |  60 | o |    |             10-----16
+ 110 | Ismael's Ghosts                          |  60 | o |    |             10-----16
+ 111 | A or B                                   |     |   |    |             10-----16
+ 112 | Edward II                                |     |   |    |             10-----16
+ 113 | The Trough                               |     |   |    |             10-----16
+ 114 | Lean on Pete                             |  92 | O |  4 |             10-------------- 26
+ 115 | You Were Never Really Here               |  86 | O |  2 |             10-------------- 26
+ 116 | Traffik                                  |  20 | * |  4 |             10-------------- 26
+ 117 | Love After Love                          |  88 | o |    |             10------       - 26
+ 118 | The 12th Man                             |  82 | o |    |             10--- -16
+ 119 | Deep Sea                                 |  91 | o |    |              1112
+ 120 | Hector "El Father" Conoceras la Verdad   |     |   |    |              11--------20
+ 121 | Tyler Perry's Acrimony                   |  23 | * |  3 |              11------------- 26
+ 122 | I Can Only Imagine                       |  70 | o |    |              11--------   -24
+ 123 | The Boxcar Children – Surprise Island    |     |   |  2 |               12
+ 124 | Tampopo                                  | 100 | O |    |                13--16
+ 125 | Willy Wonka and the Chocolate Factory    |  91 | o |  2 |                 1415
+ 126 | Bungo Stray Dogs: Dead Apple             |     |   |  2 |                 14-  18
+ 127 | Batman                                   |  72 | o |  2 |                  1516
+ 128 | Eraserhead                               |  91 | O |    |                  15-     -23
+ 129 | The Endless                              |  97 | O |    |                  15-     --  26
+ 130 | Flower                                   |  51 | * |    |                    17
+ 131 | Annie Hall                               |  97 | O |    |                    17-----23
+ 132 | Kings                                    |  13 | * |    |                    17-----23
+ 133 | Da One That Ghost Away                   |     |   |    |                    17-----23
+ 134 | Sgt. Stubby: An American Hero            |  81 | o |  3 |                    17------- 26
+ 135 | Labyrinth (1986) Event                   |  68 | o |  3 |                    17-- 21
+ 136 | October                                  |  86 | o |    |                    17--   -- 26
+ 137 | Like Arrows                              |     |   |  2 |                    17 19
+ 138 | Secret Ocean                             |     |   |    |                     18
+ 139 | The Metropolitan Opera: Cendrillon Encor |     |   |  2 |                     18
+ 140 | The Metropolitan Opera: Cendrillon       |     |   |    |                         22
+ 141 | Aliens                                   |  98 | O |    |                         2223
+ 142 | A Taxi Driver                            |  95 | o |    |                         2223
+ 143 | Born to Be Wild                          |     |   |    |                          23
+ 144 | Final Portrait                           |  73 | O |    |                           24
+ 145 | Finding Your Feet                        |  70 | o |    |                           24
+ 146 | An Evening With Brent Green              |     |   |    |                           24
+ 147 | Avengers: Infinity War Opening Night Fan |     |   |  2 |                           24
+ 148 | Bharat Ane Nenu                          |     |   |    |                           24
+ 149 | After Auschwitz                          | 100 | o |    |                           24 26
+ 150 | Little Pink House                        |  85 | o |    |                           24 26
+ 151 | Borg vs McEnroe                          |  83 | O |    |                           24 26
+ 152 | Beyond the Clouds                        |  63 | o |    |                           24 26
+ 153 | Cake                                     |     |   |    |                           24 26
+ 154 | Dude's Manual                            |     |   |    |                           24 26
+ 155 | The Weather Underground                  |  91 | O |    |                             26
+ 156 | 44 Pages                                 |  80 | o |    |                             26
+ 157 | The Miracle Season                       |  47 | * |    |                             26
+ 158 | Pacific Rim Uprising                     |  43 | * |    |                             26
+ 159 | Fragments of Truth                       |     |   |    |                             26
+(159 rows)
 
