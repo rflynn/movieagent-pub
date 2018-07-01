@@ -2,8 +2,8 @@
 
 . $HOME/.bashrc
 
-PGPASSWORD=password psql -h localhost -U postgres -d postgres -c 'select * from rf_whatsplaying' > today.txt
-git add today.txt
+# PGPASSWORD=password psql -h localhost -U postgres -d postgres -c 'select * from rf_whatsplaying' > today.txt
+# git add today.txt
 
 PGPASSWORD=password psql -h localhost -U postgres -d postgres -c 'select * from rf_whatsplaying_fd' > today_fd.txt
 git add today_fd.txt
