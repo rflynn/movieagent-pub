@@ -1,507 +1,509 @@
-  n  |                  title                   | year | rt  | _ | rt_is_matched | t  |                                   gantt_days                                   
------+------------------------------------------+------+-----+---+---------------+----+--------------------------------------------------------------------------------
-   1 | Daisy Kenyon                             |      | 100 | o | t             |    | -1
-   2 | The King                                 | 2018 |  83 | o | t             |    | -1
-   3 | The King                                 | 2018 |  79 | o | t             |    | -1
-   4 | Good Will Hunting                        | 1998 |     |   | f             |    | -1
-   5 | Shame, Shame...Everybody Knows Her Name  | 1969 |     |   | f             |    | -1
-   6 | Smithereens                              |      |     |   | f             |    | -1
-   7 | Blue Velvet                              | 2001 |  94 | O | t             |    | -10
-   8 | Dazed and Confused                       | 1993 |  93 | O | t             |    | -10
-   9 | Araby                                    | 2018 |  90 | o | t             |    | -10
-  10 | Constructing Albert                      |      |  83 | o | t             |    | -10
-  11 | Under the Tree                           | 2018 |  81 | o | t             |    | -10
-  12 | Coming to America                        | 1988 |  67 | o | t             |    | -10
-  13 | Bleeding Steel                           | 2018 |  30 | * | t             |    | -10
-  14 | Brother of the Year                      | 2018 |     |   | t             |    | -10
-  15 | Moss                                     | 2010 |     |   | t             |    | -10
-  16 | Na Band Na Baraati                       | 2018 |     |   | t             |    | -10
-  17 | Sharp Edges                              | 2018 |     |   | t             |    | -10
-  18 | Sundance Film Festival Short Films       |      |     |   | f             |    | -10
-  19 | Sorry to Bother You                      | 2018 |  94 | O | t             |  2 | -1-1
-  20 | Whitney                                  | 2018 |  89 | O | t             |  8 | -1-1
-  21 | Ant-Man and the Wasp                     | 2018 |  87 | O | t             | 14 | -1-1
-  22 | My Own Private Idaho                     | 1991 |  82 | O | t             |    | -1--2
-  23 | The First Purge                          | 2018 |  52 | * | t             |  8 | -1---3
-  24 | Fireworks (Premiere Event)               | 2018 |  50 | * | t             |  4 | -1---3
-  25 | Great White Shark                        | 2013 |     |   | t             |    | -1------6
-  26 | The Cakemaker                            | 2018 | 100 | o | t             |    | -1-------7
-  27 | Sanju                                    | 2018 |  50 | * | t             |  4 | -1-------7
-  28 | Leave No Trace                           | 2018 | 100 | O | t             |  3 | -1--------8
-  29 | Three Identical Strangers                | 2018 |  95 | O | t             |  2 | -1--------8
-  30 | Uncle Drew                               | 2018 |  66 | o | t             |  8 | -1--------8
-  31 | Sicario: Day of the Soldado              | 2018 |  65 | o | t             | 10 | -1--------8
-  32 | Boundaries                               | 2018 |  55 | * | t             |  3 | -1--------------14
-  33 | Spiral                                   | 2018 |  33 | * | t             |    | -1--------------14
-  34 | Jurassic World: Fallen Kingdom           | 2018 |  51 | * | t             | 15 | -1---------------15
-  35 | Incredibles 2                            | 2018 |  93 | O | t             | 14 | -1----------------------22
-  36 | Tag                                      | 2018 |  55 | * | t             | 10 | -1----------------------22
-  37 | Gotti                                    | 2018 |   0 | * | t             |  7 | -1----------------------22
-  38 | SuperFly                                 | 2018 |  51 | * | t             | 10 | -1-----------------------23
-  39 | Hearts Beat Loud                         |      |  90 | O | t             |  5 | -1-----------------------------29
-  40 | Hereditary                               | 2018 |  89 | O | t             | 10 | -1-----------------------------29
-  41 | Ocean's 8                                | 2018 |  67 | o | t             | 13 | -1-----------------------------29
-  42 | American Animals                         | 2018 |  86 | O | t             |  6 | -1------------------------------------36
-  43 | Solo: A Star Wars Story                  | 2018 |  71 | o | t             | 14 | -1-------------------------------------------43
-  44 | First Reformed                           | 2018 |  95 | O | t             |  8 | -1--------------------------------------------------50
-  45 | Deadpool 2                               | 2018 |  82 | O | t             | 13 | -1--------------------------------------------------50
-  46 | Book Club                                | 2018 |  53 | * | t             | 12 | -1--------------------------------------------------50
-  47 | RBG                                      | 2018 |  93 | O | t             |  8 | -1---------------------------------------------------------------62
-  48 | Disobedience                             | 2018 |  84 | O | t             | 10 | -1-----------------------------------------------------------------------70
-  49 | Avengers: Infinity War                   | 2018 |  83 | O | t             | 12 | -1-----------------------------------------------------------------------70
-  50 | Pandas                                   | 2018 | 100 | o | t             |    | -1------------------------------------------------------------------------ 72
-  51 | A Quiet Place                            | 2018 |  95 | O | t             |  9 | -1------------------------------------------------------------------------ 72
-  52 | Backyard Wilderness                      |      |     |   | t             |    | -1------------------------------------------------------------------------ 72
-  53 | Won't You Be My Neighbor?                | 2018 |  99 | O | t             | 10 | -1------------------------------ 31
-  54 | 2001: A Space Odyssey                    | 1968 |  92 | O | t             |    | -1-------------------  - ------ ---------------45
-  55 | Isle of Dogs                             | 2018 |  89 | O | t             |  6 | -1---- ------------------------------------------------------------------- 72
-  56 | Custody                                  | 2018 |  94 | O | t             |    | -1-- ----7
-  57 | In the Soup                              | 1992 |  92 | o | t             |    | -1-- ----7
-  58 | Marlina the Murderer in Four Acts        |      |  96 | o | t             |    | -1-- -----------14
-  59 | Damsel                                   | 2018 |  76 | O | t             |  2 | -1-- -----------14
-  60 | The Catcher Was A Spy                    | 2018 |  32 | * | t             |  2 | -1-- -----------14
-  61 | On the Seventh Day                       | 2018 | 100 | o | t             |    | -1-- -----------------20
-  62 | The Death of Stalin                      | 2018 |  96 | O | t             |  7 | -1-- -------------------  ----------- ------------------------------------ 72
-  63 | Suspiria                                 | 1977 |  92 | O | t             |    | -1--    --     -14
-  64 | Animal World                             | 2018 |  60 | o | t             |    | -1- -----7
-  65 | The Holy Mountain                        | 1973 |  81 | o | t             |    | -1-     -7
-  66 | The Master                               | 1992 |  85 | O | t             |    | -1-       --     --- 19
-  67 | The Rider                                | 2018 |  97 | O | t             |  4 | -1-              ------- --------------             ------------------67
-  68 | You Were Never Really Here               | 2018 |  87 | O | t             |  2 | -1-                            -----------------           --------------- 72
-  69 | GoodFellas                               | 1990 |  96 | O | t             |  2 | -1-                                 --    --42
-  70 | The Dark Crystal (1982) Event            | 2018 |  74 | o | t             |    | -1-                                                        57
-  71 | On Dangerous Ground                      | 1952 | 100 | o | t             |    | -1 1
-  72 | The Naked City                           | 1948 |  86 | o | t             |    | -1 1
-  73 | Eating Animals                           | 2018 |  94 | o | t             |  2 | -1 --------------------21
-  74 | Breakfast at Tiffany's                   | 1961 |  88 | O | t             |    | -1  2
-  75 | Werckmeister Harmonies                   |      |  97 | o | t             |    | -1  -            15
-  76 | Looking for Mr. Goodbar                  | 1977 |  76 | o | t             |    | -1   3
-  77 | Gerry                                    | 2011 |     |   | t             |    | -1   - 5
-  78 | A Fistful of Dollars                     | 1964 |  98 | O | t             |    | -1         -     --- -- ------ --31
-  79 | The Changeling                           | 1980 |  76 | o | t             |    | -1                              -31
-  80 | A Wrinkle in Time                        | 2018 |  40 | * | t             |  5 | -1                                           -------------------------  -70
-  81 | Pillow Talk                              | 1959 |  92 | o | t             |    |   0
-  82 | Mixed Blood                              | 1984 |     |   | t             |    |   0
-  83 | Poor Little Rich Girl                    |      |     |   | t             |    |   0
-  84 | The Private Afternoons of Pamela Mann    |      |     |   | f             |    |   0
-  85 | To Die For                               | 1995 |  87 | O | t             |    |   0  -     9
-  86 | Moonstruck                               | 1988 |  92 | O | t             |    |   0   4
-  87 | Baby Face                                | 1933 | 100 | o | t             |    |    1
-  88 | Gloria                                   | 1980 |  95 | o | t             |    |    1
-  89 | Ms. 45                                   | 2013 |  89 | o | t             |    |    1
-  90 | Lewis & Clark: Great Journey West        | 2002 |  78 | o | t             |    |    1
-  91 | Paranoid Park                            | 2008 |  76 | O | t             |    |    1
-  92 | Blue Steel                               | 1992 |  71 | o | t             |    |    1
-  93 | Double Feature - Ant-Man & The Wasp      | 2018 |     |   | f             |  2 |    1
-  94 | Recovery Boys                            |      | 100 | o | t             |    |    1---5
-  95 | Dark River                               | 2018 |  75 | O | t             |    |    1-----7
-  96 | Ideal Home                               | 2018 |  73 | o | t             |    |    1-----7
-  97 | Woman Walks Ahead                        | 2018 |  54 | * | t             |    |    1-----7
-  98 | Hover                                    | 2018 |  20 | * | t             |    |    1-----7
-  99 | Black Water                              | 2018 |   0 | * | t             |    |    1-----7
- 100 | Summer 1993                              | 2018 | 100 | O | t             |    |    1------------14
- 101 | Gabriel and the Mountain                 | 2018 |  77 | o | t             |    |    1-------------------21
- 102 | Nancy                                    |      |  80 | o | t             |    |    1--------------------------28
- 103 | The Gospel According to André            | 2018 |  89 | o | t             |  2 |    1-----------------------------------------         52
- 104 | Mary Shelley                             | 2018 |  33 | * | t             |  2 |    1----------  ----------------------36
- 105 | Rock Rubber 45s                          |      |     |   | t             |    |    1----  8
- 106 | Porco Rosso                              | 1992 |  94 | o | t             |    |    1 3
- 107 | The Hit                                  |      |  85 | o | t             |    |    1 3
- 108 | Happy Feet                               | 2006 |  75 | O | t             |    |    1 3
- 109 | Five Seasons: The Gardens of Piet Oudolf |      |  82 | o | t             |    |    1 ------------------21
- 110 | Funny Girl                               | 1968 |  93 | O | t             |    |     2
- 111 | Tootsie                                  | 1982 |  89 | O | t             |    |     2
- 112 | The First Wives Club                     | 1996 |  41 | * | t             |    |     2
- 113 | Star Spangled to Death                   |      |     |   | t             |    |     2
- 114 | The Leakers                              | 2018 |     |   | t             |    |     2----7
- 115 | Race 3                                   | 2018 |  11 | * | t             |  3 |     2------------------21
- 116 | Jaws                                     | 1975 |  97 | O | t             |    |      3
- 117 | The Last Days of Disco                   | 1998 |  73 | o | t             |    |      3
- 118 | Working Girl                             | 1989 |  85 | o | t             |    |      34
- 119 | Girls About Town                         | 1931 |     |   | f             |    |      34
- 120 | Adrift                                   | 2018 |  74 | o | t             | 10 |      3--------------------------------36
- 121 | Easy Living                              | 1937 | 100 | o | t             |    |       4
- 122 | Woman in the Dunes                       | 1964 | 100 | o | t             |    |       4
- 123 | Drugstore Cowboy                         | 1989 | 100 | o | t             |    |       4   8
- 124 | Sweet Charity                            | 1969 | 100 | o | t             |    |        5
- 125 | The Phantom Tollbooth                    | 1970 | 100 | o | t             |    |        5
- 126 | Auntie Mame                              | 1958 |  92 | o | t             |    |        5
- 127 | Last Days                                | 2005 |  57 | * | t             |    |        5
- 128 | Times Square                             |      |  50 | * | t             |    |        5
- 129 | Old Enough                               | 1984 |     |   | t             |    |        5
- 130 | Tron                                     | 1982 |  70 | o | t             |    |        56
- 131 | The Red Shoes                            | 1948 |  96 | O | t             |    |        5-7
- 132 | High Fidelity                            | 2000 |  91 | O | t             |    |        5-7
- 133 | Miami Blues                              | 1990 |  81 | o | t             |    |        5- 8
- 134 | Love Live! Sunshine!! Aqours 3rd Wonderf |      |     |   | f             |    |         6
- 135 | The Driver's Seat                        |      |     |   | f             |    |         6
- 136 | The Departed                             | 2006 |  90 | O | t             |    |         67
- 137 | Butterfield 8                            | 1960 |  47 | * | t             |    |         67
- 138 | Adaptation                               | 2002 |  91 | O | t             |    |         6-    --14
- 139 | Gangs of New York                        | 2002 |  74 | O | t             |    |         6-     -14
- 140 | Ash Wednesday                            | 2002 |  25 | * | t             |    |         6    11
- 141 | The Comedians                            | 1967 |  27 | * | t             |    |         6      13
- 142 | St. Martin's Lane                        |      |     |   | f             |    |          7
- 143 | Boom!                                    | 1968 |   8 | * | t             |    |          78
- 144 | The Only Game in Town                    |      |     |   | t             |    |          7 9
- 145 | Betty: They Say I'm Different            |      |     |   | t             |    |           8
- 146 | Les Carabiniers                          |      |  73 | o | t             |    |           89
- 147 | Reflections in a Golden Eye              | 1967 |  60 | o | t             |    |           89
- 148 | Never Steady, Never Still                | 2018 |  76 | o | t             |    |           8---12
- 149 | Izzy Gets the F*ck Across Town           | 2018 |  50 | * | t             |    |           8----13
- 150 | Beach House                              | 2018 |  25 | * | t             |    |           8-----14
- 151 | Distorted                                | 2018 |  20 | * | t             |    |           8-----14
- 152 | Buddies                                  | 1985 |     |   | t             |    |           8-----14
- 153 | Christian Audigier The VIF               |      |     |   | t             |    |           8-----14
- 154 | Lobster Cop                              | 2018 |     |   | t             |    |           8-----14
- 155 | My 2 Mommies                             | 2018 |     |   | t             |    |           8-----14
- 156 | The Year of Spectacular Men              |      |  75 | o | t             |    |           8------------21
- 157 | Westwood: Punk, Icon, Activist           | 2018 |  74 | o | t             |    |           8-------------------28
- 158 | Hotel Artemis                            | 2018 |  57 | * | t             |  9 |           8--------------------29
- 159 | Veere Di Wedding                         | 2018 |  71 | o | t             |  2 |           8--------------------------35
- 160 | Rodin                                    | 2017 |  21 | * | t             |    |           8------------- ------------35
- 161 | Let the Sunshine In                      | 2018 |  86 | O | t             |  2 |           8-------------  ----------------------------------------------69
- 162 | Boom for Real: The Late Teenage Years of |      |  88 | O | t             |    |           8-------------  ----------- --------------------56
- 163 | The Seagull                              | 2018 |  69 | o | t             |  4 |           8------    -------------------------------------56
- 164 | Quad Comedy Shorts Vol. 1                |      |     |   | f             |    |           8---  14
- 165 | Ganja & Hess                             | 1973 |  83 | o | t             |    |           8-     --- -- ------ ---32
- 166 | Secret Ceremony                          |      |  50 | * | t             |    |           8 10
- 167 | BANDSTAND: The Broadway Musical on Scree | 2018 |     |   | t             |  3 |           8  11
- 168 | Brazil                                   | 1985 |  98 | O | t             |    |            9
- 169 | Met Summer Encore: Il Trovatore          | 2018 |     |   | f             |  3 |            9
- 170 | Nausicaä of the Valley of the Wind       | 1984 |  87 | o | t             |    |            910
- 171 | X, Y & Zee                               | 1972 |  33 | * | t             |    |            910
- 172 | West Side Story                          | 1961 |  94 | O | t             |  3 |            9  12
- 173 | The Big Lebowski                         | 1998 |  82 | O | t             |    |            9   --     --     -28
- 174 | Indiana Jones and the Last Crusade       | 1989 |  88 | O | t             |    |            9         -20
- 175 | The Taming of the Shrew                  | 1967 |  85 | o | t             |    |             10 12
- 176 | Brand: A Second Coming                   | 2015 |  71 | o | t             |    |              11
- 177 | NT LIVE: The Curious Incident of the Dog | 2018 |     |   | t             |  3 |              11-           24
- 178 | Who's Afraid of Virginia Woolf?          | 1966 |  95 | O | t             |    |              11 13
- 179 | The Sandpiper                            | 1965 |  10 | * | t             |    |              11 13
- 180 | Lady Snowblood                           | 1973 | 100 | o | t             |    |               12
- 181 | Cleopatra                                | 1934 |  89 | o | t             |    |               12
- 182 | Vengeance of a Snow Girl                 | 1971 |     |   | f             |    |               12
- 183 | The Wizard of Oz                         | 1939 |  99 | O | t             |    |               1213
- 184 | Tangerine                                | 2015 |  97 | O | t             |    |               12 14
- 185 | National Velvet                          | 1945 | 100 | o | t             |    |               12   16
- 186 | The V.I.P.s                              | 1963 |     |   | t             |    |                13
- 187 | BPM (Beats Per Minute)                   | 2017 |  98 | O | t             |    |                1314
- 188 | Spaceballs                               | 1987 |  57 | * | t             |    |                13-    --21
- 189 | El Topo                                  | 1970 |  78 | O | t             |    |                13-     -21
- 190 | Giant                                    | 1956 |  95 | o | t             |    |                 14
- 191 | A Place in the Sun                       | 2013 |     |   | t             |    |                 14 16
- 192 | Suddenly, Last Summer                    | 1959 |  69 | o | t             |    |                  15
- 193 | Cruising                                 | 1980 |  51 | * | t             |    |                  15
- 194 | Walker                                   |      |  40 | * | t             |    |                  15
- 195 | DCI 2018: Tour Premiere                  | 2018 |     |   | t             |  3 |                  15
- 196 | Jurassic World Double Feature            | 2018 |     |   | t             |  5 |                  15
- 197 | NT Live: Cat on a Hot Tin Roof           | 2018 |     |   | t             |    |                  15
- 198 | The Unafraid                             |      |     |   | f             |    |                  15
- 199 | Father of the Bride                      | 1950 |  93 | o | t             |    |                  1516
- 200 | One Sings, the Other Doesn't             | 1977 |  78 | o | t             |    |                  15-----21
- 201 | Straight Into a Storm: A New Rock Film A |      |  60 | o | t             |    |                  15-----21
- 202 | The Yellow Birds                         |      |  46 | * | t             |    |                  15-----21
- 203 | China Salesman                           |      |   8 | * | t             |    |                  15-----21
- 204 | Affairs of State                         |      |     |   | t             |    |                  15-----21
- 205 | Half the Picture                         |      | 100 | o | t             |    |                  15------------28
- 206 | Sanky Panky 3                            | 2018 |     |   | t             |    |                  15-------------------35
- 207 | Upgrade                                  | 2018 |  85 | O | t             |  8 |                  15--------------------36
- 208 | Who We Are Now                           | 2018 |  94 | o | t             |    |                  15--------------------------42
- 209 | Show Dogs                                | 2018 |  18 | * | t             |  7 |                  15---------------------------------49
- 210 | On Chesil Beach                          | 2018 |  69 | o | t             |  6 |                  15----------------------------------50
- 211 | Raazi                                    | 2018 | 100 | o | t             |  2 |                  15----------------------------------------56
- 212 | Life of the Party                        | 2018 |  38 | * | t             |  8 |                  15-----------------------------------------57
- 213 | Breaking In                              | 2018 |  24 | * | t             |  7 |                  15-----------------------------------------57
- 214 | Tully                                    | 2018 |  87 | O | t             | 10 |                  15------------------------------------------------63
- 215 | Mountain                                 | 2018 |  85 | O | t             |    |                  15-------             ---------45
- 216 | Believer                                 | 2018 |  75 | o | t             |  2 |                  15------ -----28
- 217 | The Quest of Alain Ducasse               | 2018 |  69 | o | t             |    |                  15------ -----28
- 218 | A Kid Like Jake                          | 2018 |  53 | * | t             |    |                  15------ ------------35
- 219 | Always at The Carlyle                    |      |  59 | * | t             |    |                  15------ -------------36
- 220 | How to Talk to Girls at Parties          |      |  48 | * | t             |  2 |                  15------  ------------------42
- 221 | Zama                                     | 2018 |  95 | O | t             |    |                  15------  ----------- ------------------------------------ 72
- 222 | Grace Jones: Bloodlight and Bami         | 2018 |  86 | O | t             |    |                  15------                     -------    -55
- 223 | Lean on Pete                             | 2018 |  92 | O | t             |  4 |                  15------                                   --------------- 72
- 224 | The Old Dark House                       | 1932 | 100 | o | t             |    |                  15---  21
- 225 | Mommie Dearest                           | 1981 |  56 | * | t             |    |                   16
- 226 | A Thousand Girls Like Me                 |      |     |   | f             |    |                   16
- 227 | The Met Summer Encore: Madama Butterfly  | 2018 |     |   | t             |  3 |                   16
- 228 | The Silence of Others                    |      |     |   | t             |    |                   16
- 229 | Princess Mononoke – Studio Ghibli Fest 2 | 2018 |     |   | t             |    |                   1617
- 230 | 7 Din Mohabbat In                        | 2018 |     |   | t             |    |                   16----21
- 231 | Restoring Tomorrow                       |      |     |   | t             |    |                   16----21
- 232 | How Long Will I Love U                   | 2018 |     |   | t             |    |                   16----- ------------- -----42
- 233 | Black Panther                            | 2018 |  97 | O | t             |  7 |                   16-----  ------------------------------------------------ 72
- 234 | Pom Poko – Studio Ghibli Fest 2018       | 2018 |     |   | t             |  3 |                   16 -19
- 235 | Tropical Rainforest                      | 1992 |     |   | t             |    |                   16                                 50
- 236 | McKellen: Playing the Part               | 2019 | 100 | o | t             |    |                    17
- 237 | Belle de Jour                            | 1967 |  96 | O | t             |    |                    17
- 238 | The Distant Barking of Dogs              |      |     |   | t             |    |                    17
- 239 | TransMilitary                            |      |     |   | t             |    |                    17
- 240 | Quatermass and the Pit                   | 1967 |  80 | o | t             |    |                    17  20
- 241 | Horror of Dracula                        | 1958 |  91 | o | t             |    |                    17   -             35
- 242 | RiffTrax Live: Space Mutiny              | 2018 |     |   | t             |  3 |                    17    22
- 243 | The Cleaners                             | 2018 |  86 | o | t             |    |                     18
- 244 | Facing the Dragon                        |      |     |   | f             |    |                     18
- 245 | Frankenstein Created Woman               | 1965 |  60 | o | t             |    |                     18  21
- 246 | The Curse of the Werewolf                | 1961 |  60 | o | t             |    |                     18           30
- 247 | The Brides of Dracula                    | 1960 |  73 | o | t             |    |                     18               34
- 248 | Fly Away Home                            | 1996 |  87 | o | t             |    |                      19
- 249 | Angkar                                   |      |     |   | f             |    |                      19
- 250 | Voices of the Sea                        |      |     |   | f             |    |                      19
- 251 | The Long Riders                          |      |  82 | o | t             |    |                      1920
- 252 | One Million Years B.C.                   |      |  67 | o | t             |    |                      1920
- 253 | Indiana Jones: Raiders of The Lost Ark   | 1981 |  95 | O | t             |    |                      19- 22
- 254 | Barry Lyndon                             | 1975 |  94 | O | t             |    |                      19  --  -27
- 255 | Die! Die! My Darling!                    |      |  44 | * | t             |    |                      19   23
- 256 | The Pirates of Blood River               |      |     |   | t             |    |                      19    24
- 257 | The Phantom of the Opera                 | 1962 |     |   | t             |    |                      19           31
- 258 | X the Unknown                            |      |  60 | o | t             |    |                      19                36
- 259 | Naila and the Uprising                   |      | 100 | o | t             |    |                       20
- 260 | The Devil Rides Out                      | 1968 |  94 | o | t             |    |                       20
- 261 | Fly Away                                 |      |  85 | o | t             |    |                       20
- 262 | What Will People Say                     |      |  75 | o | t             |    |                       20
- 263 | Dracula, Prince of Darkness              |      |  78 | o | t             |    |                       2021
- 264 | Bringing Out the Dead                    | 1999 |  71 | O | t             |    |                       2021
- 265 | Casino                                   | 1996 |  80 | O | t             |    |                       20-     -28
- 266 | Maniac Cop 2                             | 1990 |  60 | o | t             |    |                       20  23
- 267 | All's Well                               |      |     |   | f             |    |                       20      -  30
- 268 | The Gorgon                               |      |  60 | o | t             |    |                       20        29
- 269 | Anote's Ark                              |      | 100 | o | t             |    |                        21
- 270 | Maniac Cop                               | 1988 |  50 | * | t             |    |                         2223
- 271 | Middleground                             | 2018 |     |   | t             |    |                         22---26
- 272 | 1945                                     | 2017 |  96 | O | t             |    |                         22----27
- 273 | Footsteps of My Father                   |      |     |   | f             |    |                         22----27
- 274 | Bernard and Huey                         |      |  76 | o | t             |    |                         22-----28
- 275 | The Valley                               | 2018 |  42 | * | t             |    |                         22-----28
- 276 | Kaala (Tamil)                            | 2018 |  50 | * | t             |  2 |                         22-------30
- 277 | Breath                                   | 2018 |  74 | o | t             |    |                         22------------35
- 278 | Action Point                             | 2018 |  20 | * | t             |  8 |                         22------------35
- 279 | Overboard                                | 2018 |  26 | * | t             |  6 |                         22-----------------------------------------63
- 280 | Monkey Business                          | 1931 |  94 | o | t             |    |                         22- --27
- 281 | Lolita                                   | 1962 |  95 | o | t             |    |                         22 24
- 282 | Eraserhead                               | 1982 |  91 | O | t             |    |                         22                                      --     -69
- 283 | Incredibles Double Feature               | 2018 |     |   | t             |  3 |                          23
- 284 | One Last Thing – A Chicken Soup for the  | 2018 |     |   | t             |    |                          23
- 285 | The Guru + Autobiography of a Princess   |      |     |   | t             |    |                          23
- 286 | To a More Perfect Union: U.S. v Windsor  | 2018 |     |   | t             |    |                          23
- 287 | Mountain                                 | 2016 |  85 | O | t             |    |                          23----------34
- 288 | The Doctor From India                    |      |     |   | t             |    |                          23-----------35
- 289 | LES PARENTS TERRIBLES (THE STORM WITHIN) | 1950 | 100 | o | t             |    |                          23------------36
- 290 | The Guardians                            | 2018 |  90 | o | t             |    |                          23------------36
- 291 | Dementia                                 | 1955 |     |   | t             |    |                          23--  28
- 292 | Scarface 35th Anniversary                | 2018 |     |   | t             |  2 |                          23  26
- 293 | Dream Big: Engineering Our World         | 2017 | 100 | o | t             |    |                          23     -                    - -   - 58
- 294 | Torch Song Trilogy                       |      |  72 | o | t             |    |                           24
- 295 | NT Live: Macbeth                         | 2018 |     |   | f             |  2 |                           24 -                       50
- 296 | Pariah                                   | 2011 |  94 | O | t             |    |                            25
- 297 | Hairspray                                | 2007 |  91 | O | t             |    |                            25
- 298 | Mr. & Mrs. Bridge                        | 1990 |  80 | o | t             |    |                            25
- 299 | The Golden Bowl                          | 2001 |  53 | * | t             |    |                            25
- 300 | Doctor Who: Genesis of the Daleks        | 2018 |     |   | t             |  3 |                            25
- 301 | Royal Opera House: Manon                 | 2018 |     |   | f             |    |                            25
- 302 | Jumanji Movie Event                      | 2018 |     |   | t             |  3 |                            2526
- 303 | Rasputin, the Mad Monk                   | 1966 |  43 | * | t             |    |                            25 27
- 304 | HAIKARA SAN: HERE COMES MISS MODERN      | 2018 |     |   | t             |    |                            25 27
- 305 | The Remains of the Day                   | 1993 |  97 | o | t             |    |                             26
- 306 | A Soldier's Daughter Never Cries         | 1998 |  77 | o | t             |    |                             26
- 307 | Hysteria                                 | 2012 |  57 | * | t             |    |                             26
- 308 | Bolshoi Ballet: Coppelia                 | 2018 |     |   | t             |  2 |                             26
- 309 | Who Framed Roger Rabbit                  | 1988 |  97 | O | t             |    |                             2627
- 310 | The Curse of the Mummy's Tomb            |      |     |   | t             |    |                             2627
- 311 | Do the Right Thing                       | 1989 |  93 | O | t             |    |                             26-28
- 312 | Close-Up                                 |      |     |   | t             |    |                             26-28
- 313 | The 12th Man                             |      |  83 | o | t             |    |                             26--                            -----62
- 314 | Ghost Stories                            | 2018 |  82 | O | t             |    |                             26 -                   ------------------------ 72
- 315 | The Fast and the Furious                 | 2001 |  53 | * | t             |    |                             26  29
- 316 | The Nanny                                |      |     |   | t             |    |                             26  29
- 317 | Heat and Dust                            | 1983 |  86 | o | t             |    |                              27
- 318 | Le Divorce                               | 2003 |  37 | * | t             |    |                              27
- 319 | Trans                                    | 2000 |     |   | f             |    |                              27
- 320 | Cape Fear                                | 1962 | 100 | o | t             |    |                              27-     -35
- 321 | RoboCop                                  | 1987 |  89 | O | t             |    |                              27-     -35
- 322 | Pink Flamingos                           | 1997 |  80 | o | t             |    |                              27-     --    --42
- 323 | The Mummy                                | 1959 | 100 | o | t             |    |                              27      -35
- 324 | Surviving Picasso                        | 1996 |  33 | * | t             |    |                               28
- 325 | The Stranglers of Bombay                 |      |     |   | t             |    |                               28    33
- 326 | Shakespeare Wallah                       | 1966 |  88 | o | t             |    |                               28     34
- 327 | National Lampoon's Vacation              | 1983 |  93 | O | t             |    |                                29
- 328 | The Seven Year Itch                      | 1955 |  87 | o | t             |    |                                29
- 329 | Nossa Chape                              |      |  92 | o | t             |    |                                29-----35
- 330 | Bhavesh Joshi Superhero                  | 2018 |  71 | o | t             |    |                                29-----35
- 331 | The Texture of Falling                   |      |  20 | * | t             |    |                                29-----35
- 332 | In the Footsteps of Gandhi               |      |     |   | f             |    |                                29-----35
- 333 | Yadvi: The Dignified Princess            | 2017 |     |   | t             |    |                                29-----35
- 334 | In Darkness                              | 2018 |  53 | * | t             |    |                                29-----------41
- 335 | Filmworker                               |      |  95 | O | t             |    |                                29------------42
- 336 | Beast                                    | 2018 |  94 | O | t             |  4 |                                29---------------------------57
- 337 | Chappaquiddick                           | 2018 |  80 | O | t             |  7 |                                29------------------------------------------ 72
- 338 | I Feel Pretty                            | 2018 |  32 | * | t             |  9 |                                29------------------------------------------ 72
- 339 | That Summer                              | 2018 |  89 | o | t             |    |                                29----- ----40
- 340 | Revenge                                  | 2018 |  92 | O | t             |    |                                29----- --------------------56
- 341 | Corridor of Mirrors                      |      |     |   | t             |    |                                29---  35
- 342 | Fate/stay night [Heaven’s Feel] THE MOVI | 2018 |     |   | t             |  2 |                                29 31
- 343 | The Evil of Frankenstein                 | 1964 |  50 | * | t             |    |                                29   33
- 344 | The Two Faces of Dr. Jekyll              |      |     |   | t             |    |                                 3031
- 345 | These Are the Damned                     | 1963 |  86 | o | t             |    |                                 30 32
- 346 | The Producers 50th Anniversary           | 1968 |  91 | O | t             |  3 |                                 30  33
- 347 | Our Song                                 | 2001 |  91 | O | t             |    |                                  31
- 348 | Love Means Zero                          |      |     |   | t             |    |                                  31
- 349 | California Suite                         | 1979 |  55 | * | t             |    |                                  3132
- 350 | Sherlock Gnomes                          | 2018 |  29 | * | t             |  3 |                                  31------- -------------------------------- 72
- 351 | The Revenge of Frankenstein              | 1958 |  92 | o | t             |    |                                  31  34
- 352 | Girls Town                               | 1996 |  88 | o | t             |    |                                   32
- 353 | The Electric Horseman                    | 1979 |  68 | o | t             |    |                                   32
- 354 | Ten Seconds to Hell                      |      |     |   | t             |    |                                   32
- 355 | Yesterday's Enemy                        |      |     |   | f             |    |                                   32 34
- 356 | Best F(r)iends Volume Two                | 2018 |     |   | t             |  3 |                                   32  35
- 357 | The Hound of the Baskervilles            | 1959 |  94 | o | t             |    |                                    33
- 358 | Wayne's World 2                          | 1993 |  60 | o | t             |    |                                    33
- 359 | Cash on Demand                           |      |     |   | t             |    |                                    33
- 360 | One Vote                                 |      |     |   | f             |    |                                    33
- 361 | The Godfather                            | 1972 |  98 | O | t             |  2 |                                    3334
- 362 | Never Take Sweets From a Stranger        |      |     |   | t             |    |                                    33 35
- 363 | The Camp on Blood Island                 |      |     |   | t             |    |                                     34
- 364 | The Satellite Girl and Milk Cow          | 2014 |     |   | t             |    |                                     34
- 365 | Wayne's World                            | 1992 |  86 | O | t             |    |                                     3435
- 366 | Starship Troopers                        | 1997 |  63 | o | t             |  2 |                                     3435
- 367 | The Living Sea                           | 1995 |     |   | t             |    |                                      35               -                  70
- 368 | The Quatermass Xperiment                 |      |  93 | o | t             |    |                                       36
- 369 | Queen Margot                             | 1994 |  81 | o | t             |    |                                       36
- 370 | Andy Irons: Kissed by God                | 2018 |     |   | t             |  2 |                                       36
- 371 | The Abominable Snowman of the Himalayas  |      |     |   | t             |    |                                       36
- 372 | The Misandrists                          | 2018 |  69 | o | t             |    |                                       36-----42
- 373 | Future World                             | 2018 |   0 | * | t             |    |                                       36-----42
- 374 | Pope Francis - A Man of His Word         | 2018 |  89 | O | t             |  8 |                                       36-------------50
- 375 | Love, Simon                              | 2018 |  91 | O | t             |  3 |                                       36-------------------------- -      - 72
- 376 | 102 Not Out                              | 2018 |  71 | o | t             |  2 |                                       36-- -----------------------62
- 377 | Sammy Davis, Jr.: I've Gotta Be Me       |      | 100 | o | t             |    |                                        37
- 378 | A Chance in the World - Premiere         | 2018 |     |   | t             |  2 |                                        37
- 379 | Dolphins                                 | 1999 |     |   | t             |    |                                        37
- 380 | Parmanu: The Story of Pokhran            | 2018 |  50 | * | t             |    |                                        37----42
- 381 | Ready Player One                         | 2018 |  73 | O | t             |  8 |                                        37---------------------------------- 72
- 382 | Feral                                    | 2018 |  38 | * | t             |    |                                        37- --42
- 383 | Rampage                                  | 2018 |  52 | * | t             |  7 |                                        37- -------------------------------- 72
- 384 | Film Club With Marshall Fine             |      |     |   | f             |    |                                        37             51
- 385 | The Atomic Cafe                          |      |  94 | o | t             |    |                                         38
- 386 | Blazing Saddles                          | 1974 |  90 | O | t             |    |                                          39--42
- 387 | A Clockwork Orange                       | 1971 |  89 | O | t             |    |                                           40--     -49
- 388 | That Summer                              |      |  89 | o | t             |    |                                            41-------49
- 389 | In Darkness                              | 2012 |  88 | O | t             |    |                                             42
- 390 | A Jihad for Love                         |      |  78 | o | t             |    |                                              43
- 391 | Opening Night Fan Event - Solo: A Star W | 2018 |  71 | o | t             |  4 |                                              43
- 392 | Sollers Point                            |      |  86 | o | t             |    |                                              43-45
- 393 | Saving Brinton                           |      |  91 | o | t             |    |                                              43-----49
- 394 | Carter & June                            | 2018 |  13 | * | t             |    |                                              43-----49
- 395 | Dark Crimes                              |      |   0 | * | t             |    |                                              43-----49
- 396 | Nothing to Lose                          | 2018 |     |   | t             |  3 |                                              43-------------57
- 397 | Call Me by Your Name                     | 2018 |  95 | O | t             |    |                                              43------------------61
- 398 | Beirut                                   | 2018 |  77 | O | t             |  6 |                                              43---------------------------- 72
- 399 | Blockers                                 | 2018 |  83 | O | t             |  7 |                                              43------ --------------------- 72
- 400 | Strangers on the Earth                   |      |  83 | o | t             |    |                                              43---- -------------61
- 401 | Born to Be Wild                          | 2011 |     |   | t             |    |                                              43                         69
- 402 | Film Club                                |      |     |   | f             |    |                                               44
- 403 | Champion                                 | 2018 |     |   | t             |    |                                               44----49
- 404 | Blumhouse's Truth or Dare                | 2018 |  14 | * | t             |  7 |                                               44--------------------------- 72
- 405 | Porco Rosso – Studio Ghibli Fest 2018    | 2018 |     |   | t             |  2 |                                               44 -47
- 406 | The Fourth Estate                        |      | 100 | o | t             |    |                                                45
- 407 | Pierrot le Fou                           | 1969 |  85 | O | t             |    |                                                45
- 408 | GODSPEED - The Race Across America       | 2018 |     |   | t             |  2 |                                                45
- 409 | All That Jazz                            | 1979 |  86 | o | t             |    |                                                 46
- 410 | Fame                                     | 2009 |  24 | * | t             |    |                                                 46
- 411 | Royal Opera House: Macbeth               | 2018 |     |   | f             |    |                                                 46
- 412 | The King of Comedy                       | 1983 |  90 | O | t             |    |                                                 46 -49
- 413 | Privilege                                |      |  50 | * | t             |    |                                                  47-49
- 414 | The Royal Wedding                        | 2018 |     |   | t             |    |                                                   48
- 415 | Pulp Fiction                             | 1994 |  94 | O | t             |    |                                                   48-     -56
- 416 | Gremlins 2: The New Batch                | 1990 |  69 | o | t             |    |                                                   48-     --    -62
- 417 | Coral Reef Adventure                     | 2003 |  91 | o | t             |    |                                                    49            62
- 418 | Salaam Bombay!                           | 1988 |  93 | o | t             |    |                                                     50
- 419 | The Escape                               | 2018 |  84 | o | t             |    |                                                     50
- 420 | Death Wish                               | 2018 |  18 | * | t             |    |                                                     50
- 421 | Amazon Adventure                         |      |     |   | t             |    |                                                     50
- 422 | Deadpool's Double Feature                | 2018 |     |   | t             |  7 |                                                     50
- 423 | The Snowman Trek                         | 2018 |     |   | t             |  2 |                                                     50
- 424 | What Haunts Us                           |      | 100 | o | t             |    |                                                     50-----56
- 425 | Class Rank                               | 2018 |  83 | o | t             |    |                                                     50-----56
- 426 | Lu Over the Wall                         | 2018 |  76 | o | t             |  2 |                                                     50-----56
- 427 | Anything                                 | 2018 |  60 | o | t             |    |                                                     50-----56
- 428 | Racer and the Jailbird                   | 2018 |  33 | * | t             |    |                                                     50-----56
- 429 | Terminal                                 | 2018 |  23 | * | t             |    |                                                     50-----56
- 430 | Born Guilty                              | 2018 |     |   | t             |    |                                                     50-----56
- 431 | I Am Your Mom                            | 2018 |     |   | t             |    |                                                     50-----56
- 432 | The Last Horsemen of New York            |      |     |   | t             |    |                                                     50-----56
- 433 | The Desert Bride                         | 2018 |  83 | o | t             |    |                                                     50------------62
- 434 | Bad Samaritan                            | 2018 |  52 | * | t             |  7 |                                                     50-------------63
- 435 | Super Troopers 2                         | 2018 |  31 | * | t             |  7 |                                                     50--------------------- 72
- 436 | Coldwater                                | 2014 |  60 | o | t             |    |                                                     50------      ------69
- 437 | Itzhak                                   | 2018 |  89 | o | t             |    |                                                     50------       64
- 438 | The Iron Triangle                        |      |     |   | t             |    |                                                     50 - 54
- 439 | The Escape                               |      |  84 | o | t             |    |                                                      51----56
- 440 | Charlie vs. Goliath                      |      |     |   | t             |    |                                                      51 53
- 441 | Sunset Boulevard                         | 1950 |  98 | O | t             |  2 |                                                      51  54
- 442 | American Dream: Detroit                  | 2018 |     |   | t             |  2 |                                                       52
- 443 | Naz & Maalik                             | 2016 |  78 | o | t             |    |                                                        53
- 444 | No Man's Land                            | 2001 |  93 | O | t             |    |                                                         54
- 445 | Titanic                                  | 1997 |  88 | O | t             |    |                                                         54  57
- 446 | After Hours                              | 1985 |  88 | O | t             |    |                                                          5556
- 447 | Ferris Bueller's Day Off                 | 1986 |  79 | O | t             |    |                                                          5556
- 448 | Raging Bull                              | 1980 |  95 | O | t             |    |                                                          55-    -62
- 449 | Puffs: Filmed Live Off Broadway          | 2018 |     |   | t             |  2 |                                                          55  58
- 450 | DIGIMON ADVENTURE tri.: Coexistence      | 2018 |     |   | t             |  2 |                                                            57
- 451 | Rogers Park                              | 2018 | 100 | o | t             |    |                                                            57----61
- 452 | The Cleanse                              | 2018 |  80 | o | t             |    |                                                            57----61
- 453 | Everything Else                          |      |     |   | t             |    |                                                            57----61
- 454 | The Con is On                            | 2018 |     |   | t             |    |                                                            57----61
- 455 | Edward II                                | 1992 | 100 | o | t             |    |                                                            57-----62
- 456 | Lives Well Lived                         |      | 100 | o | t             |    |                                                            57-----62
- 457 | Oh Lucy!                                 | 2018 | 100 | O | t             |    |                                                            57-----62
- 458 | Cold Water                               | 1994 |  60 | o | t             |    |                                                            57-----62
- 459 | Ismael's Ghosts                          | 2018 |  53 | o | t             |    |                                                            57-----62
- 460 | A or B                                   | 2018 |     |   | t             |    |                                                            57-----62
- 461 | Edward II                                | 1992 |     |   | t             |    |                                                            57-----62
- 462 | The Trough                               | 2018 |     |   | t             |    |                                                            57-----62
- 463 | Traffik                                  | 2018 |  23 | * | t             |  4 |                                                            57-------------- 72
- 464 | Love After Love                          | 2018 |  88 | o | t             |    |                                                            57------       - 72
- 465 | Deep Sea                                 | 2006 |  91 | o | t             |    |                                                             5859
- 466 | Hector "El Father" Conoceras la Verdad   | 2018 |     |   | t             |    |                                                             58--------66
- 467 | Tyler Perry's Acrimony                   | 2018 |  22 | * | t             |  3 |                                                             58------------- 72
- 468 | I Can Only Imagine                       | 2018 |  68 | o | t             |    |                                                             58--------   -70
- 469 | The Boxcar Children – Surprise Island    | 2018 |     |   | t             |  2 |                                                              59
- 470 | Tampopo                                  | 1986 | 100 | O | t             |    |                                                               60--62
- 471 | Willy Wonka and the Chocolate Factory    | 1971 |  91 | o | t             |  2 |                                                               6061
- 472 | Bungo Stray Dogs: Dead Apple             | 2018 |     |   | t             |  2 |                                                               60-  64
- 473 | Batman                                   | 1989 |  72 | o | t             |  2 |                                                                6162
- 474 | The Endless                              | 2018 |  97 | O | t             |    |                                                                61-     --  72
- 475 | Flower                                   | 2018 |  51 | * | t             |    |                                                                  63
- 476 | Annie Hall                               | 1977 |  97 | O | t             |    |                                                                  63-----69
- 477 | Kings                                    | 2018 |  12 | * | t             |    |                                                                  63-----69
- 478 | Da One That Ghost Away                   | 2018 |     |   | t             |    |                                                                  63-----69
- 479 | Sgt. Stubby: An American Hero            | 2018 |  82 | o | t             |  3 |                                                                  63------- 72
- 480 | Labyrinth (1986) Event                   | 1986 |  68 | o | t             |  3 |                                                                  63-- 67
- 481 | October                                  | 2018 |  86 | o | t             |    |                                                                  63--   -- 72
- 482 | Like Arrows                              | 2018 |     |   | t             |  2 |                                                                  63 65
- 483 | Secret Ocean                             |      |     |   | f             |    |                                                                   64
- 484 | The Metropolitan Opera: Cendrillon Encor | 2018 |     |   | t             |  2 |                                                                   64
- 485 | The Metropolitan Opera: Cendrillon       | 2018 |     |   | t             |    |                                                                       68
- 486 | Aliens                                   | 1986 |  98 | O | t             |    |                                                                       6869
- 487 | A Taxi Driver                            | 2017 |  96 | o | t             |    |                                                                       6869
- 488 | Final Portrait                           | 2018 |  74 | O | t             |    |                                                                         70
- 489 | Finding Your Feet                        | 2018 |  70 | o | t             |    |                                                                         70
- 490 | An Evening With Brent Green              |      |     |   | f             |    |                                                                         70
- 491 | Avengers: Infinity War Opening Night Fan | 2018 |     |   | t             |  2 |                                                                         70
- 492 | Bharat Ane Nenu                          |      |     |   | t             |    |                                                                         70
- 493 | After Auschwitz                          | 2018 | 100 | o | t             |    |                                                                         70 72
- 494 | Borg vs McEnroe                          | 2018 |  83 | O | t             |    |                                                                         70 72
- 495 | Little Pink House                        |      |  74 | o | t             |    |                                                                         70 72
- 496 | Beyond the Clouds                        | 2018 |  63 | o | t             |    |                                                                         70 72
- 497 | Cake                                     | 2018 |     |   | t             |    |                                                                         70 72
- 498 | Dude's Manual                            | 2018 |     |   | t             |    |                                                                         70 72
- 499 | The Weather Underground                  | 2002 |  91 | O | t             |    |                                                                           72
- 500 | 44 Pages                                 |      |  80 | o | t             |    |                                                                           72
- 501 | The Miracle Season                       | 2018 |  47 | * | t             |    |                                                                           72
- 502 | Pacific Rim Uprising                     | 2018 |  43 | * | t             |    |                                                                           72
- 503 | Fragments of Truth                       | 2018 |     |   | t             |    |                                                                           72
-(503 rows)
+  n  |                  title                   | year | rt  | _ | rt_is_matched | t  |                                   gantt_days                                    
+-----+------------------------------------------+------+-----+---+---------------+----+---------------------------------------------------------------------------------
+   1 | It Should Happen to You                  | 1954 | 100 | o | t             |    | -1
+   2 | Up the Down Staircase                    |      |  80 | o | t             |    | -1
+   3 | Manhandled                               | 1924 |     |   | t             |    | -1
+   4 | The King                                 | 2018 |  83 | o | t             |    | -10
+   5 | Dazed and Confused                       | 1993 |  93 | O | t             |    | -1-1
+   6 | Araby                                    | 2018 |  90 | o | t             |    | -1-1
+   7 | Under the Tree                           | 2018 |  86 | o | t             |    | -1-1
+   8 | Constructing Albert                      |      |  83 | o | t             |    | -1-1
+   9 | Bleeding Steel                           | 2018 |  23 | * | t             |    | -1-1
+  10 | Brother of the Year                      | 2018 |     |   | t             |    | -1-1
+  11 | Moss                                     | 2010 |     |   | t             |    | -1-1
+  12 | Na Band Na Baraati                       | 2018 |     |   | t             |    | -1-1
+  13 | Sharp Edges                              | 2018 |     |   | t             |    | -1-1
+  14 | Sundance Film Festival Short Films       |      |     |   | f             |    | -1-1
+  15 | Sorry to Bother You                      | 2018 |  94 | O | t             |  2 | -1--2
+  16 | Whitney                                  | 2018 |  90 | O | t             |  8 | -1--2
+  17 | Ant-Man and the Wasp                     | 2018 |  87 | O | t             | 14 | -1--2
+  18 | My Own Private Idaho                     | 1991 |  82 | O | t             |    | -1---3
+  19 | The First Purge                          | 2018 |  52 | * | t             |  8 | -1----4
+  20 | Fireworks (Premiere Event)               | 2018 |  50 | * | t             |  4 | -1----4
+  21 | Great White Shark                        | 2013 |     |   | t             |    | -1-------7
+  22 | The Cakemaker                            | 2018 | 100 | o | t             |    | -1--------8
+  23 | Sanju                                    | 2018 |  50 | * | t             |  4 | -1--------8
+  24 | Leave No Trace                           | 2018 | 100 | O | t             |  3 | -1---------9
+  25 | Three Identical Strangers                | 2018 |  94 | O | t             |  2 | -1---------9
+  26 | Uncle Drew                               | 2018 |  68 | o | t             |  8 | -1---------9
+  27 | Sicario: Day of the Soldado              | 2018 |  65 | o | t             | 10 | -1---------9
+  28 | Boundaries                               | 2018 |  55 | * | t             |  3 | -1---------------15
+  29 | Spiral                                   | 2018 |  33 | * | t             |    | -1---------------15
+  30 | Jurassic World: Fallen Kingdom           | 2018 |  51 | * | t             | 15 | -1----------------16
+  31 | Incredibles 2                            | 2018 |  93 | O | t             | 14 | -1-----------------------23
+  32 | Tag                                      | 2018 |  55 | * | t             | 10 | -1-----------------------23
+  33 | Gotti                                    | 2018 |   0 | * | t             |  7 | -1-----------------------23
+  34 | SuperFly                                 | 2018 |  51 | * | t             | 10 | -1------------------------24
+  35 | Hearts Beat Loud                         |      |  90 | O | t             |  5 | -1------------------------------30
+  36 | Hereditary                               | 2018 |  89 | O | t             | 10 | -1------------------------------30
+  37 | Ocean's 8                                | 2018 |  67 | o | t             | 13 | -1------------------------------30
+  38 | American Animals                         | 2018 |  86 | O | t             |  6 | -1-------------------------------------37
+  39 | Solo: A Star Wars Story                  | 2018 |  71 | o | t             | 14 | -1--------------------------------------------44
+  40 | First Reformed                           | 2018 |  95 | O | t             |  8 | -1---------------------------------------------------51
+  41 | Deadpool 2                               | 2018 |  82 | O | t             | 13 | -1---------------------------------------------------51
+  42 | Book Club                                | 2018 |  53 | * | t             | 12 | -1---------------------------------------------------51
+  43 | RBG                                      | 2018 |  93 | O | t             |  8 | -1----------------------------------------------------------------63
+  44 | Disobedience                             | 2018 |  84 | O | t             | 10 | -1------------------------------------------------------------------------71
+  45 | Avengers: Infinity War                   | 2018 |  83 | O | t             | 12 | -1------------------------------------------------------------------------71
+  46 | Pandas                                   | 2018 | 100 | o | t             |    | -1------------------------------------------------------------------------- 73
+  47 | A Quiet Place                            | 2018 |  95 | O | t             |  9 | -1------------------------------------------------------------------------- 73
+  48 | Backyard Wilderness                      |      |     |   | t             |    | -1------------------------------------------------------------------------- 73
+  49 | Won't You Be My Neighbor?                | 2018 |  99 | O | t             | 10 | -1------------------------------- 32
+  50 | 2001: A Space Odyssey                    | 1968 |  92 | O | t             |    | -1--------------------  - ------ ---------------46
+  51 | Isle of Dogs                             | 2018 |  89 | O | t             |  6 | -1----- ------------------------------------------------------------------- 73
+  52 | Custody                                  | 2018 |  94 | O | t             |    | -1--- ----8
+  53 | In the Soup                              | 1992 |  92 | o | t             |    | -1--- ----8
+  54 | Marlina the Murderer in Four Acts        |      |  96 | o | t             |    | -1--- -----------15
+  55 | Damsel                                   | 2018 |  76 | O | t             |  2 | -1--- -----------15
+  56 | The Catcher Was A Spy                    | 2018 |  32 | * | t             |  2 | -1--- -----------15
+  57 | On the Seventh Day                       | 2018 | 100 | o | t             |    | -1--- -----------------21
+  58 | The Death of Stalin                      | 2018 |  96 | O | t             |  7 | -1--- -------------------  ----------- ------------------------------------ 73
+  59 | Animal World                             | 2018 |  63 | o | t             |    | -1-- -----8
+  60 | The Master                               | 1992 |  85 | O | t             |    | -1--       --     --- 20
+  61 | The Rider                                | 2018 |  97 | O | t             |  4 | -1--              ------- --------------             ------------------68
+  62 | You Were Never Really Here               | 2018 |  87 | O | t             |  2 | -1--                            -----------------           --------------- 73
+  63 | GoodFellas                               | 1990 |  96 | O | t             |  2 | -1--                                 --    --43
+  64 | The Dark Crystal (1982) Event            | 2018 |  74 | o | t             |    | -1--                                                        58
+  65 | On Dangerous Ground                      | 1952 | 100 | o | t             |    | -1- 2
+  66 | Eating Animals                           | 2018 |  94 | o | t             |  2 | -1- --------------------22
+  67 | A Fistful of Dollars                     | 1964 |  98 | O | t             |    | -1-         -     --- -- ------ --32
+  68 | The Changeling                           | 1980 |  76 | o | t             |    | -1-                              -32
+  69 | A Wrinkle in Time                        | 2018 |  40 | * | t             |  5 | -1-                                           -------------------------  -71
+  70 | Blue Steel                               | 1992 |  71 | o | t             |    | -1  2
+  71 | Easy Living                              | 1937 | 100 | o | t             |    | -1     5
+  72 | Woman in the Dunes                       | 1964 | 100 | o | t             |    | -1     5
+  73 | Last Days                                | 2005 |  57 | * | t             |    | -1      6
+  74 | Daisy Kenyon                             |      | 100 | o | t             |    |   0
+  75 | Good Will Hunting                        | 1998 |  97 | O | t             |    |   0
+  76 | Shame, Shame...Everybody Knows Her Name  | 1969 |     |   | f             |    |   0
+  77 | Smithereens                              |      |     |   | f             |    |   0
+  78 | Blue Velvet                              | 2001 |  94 | O | t             |    |   01
+  79 | Coming to America                        | 1988 |  67 | o | t             |    |   01
+  80 | Suspiria                                 | 1977 |  92 | O | t             |    |   0--    --     -15
+  81 | The Holy Mountain                        | 1973 |  81 | o | t             |    |   0-     -8
+  82 | The Naked City                           | 1948 |  86 | o | t             |    |   0 2
+  83 | Breakfast at Tiffany's                   | 1961 |  88 | O | t             |    |   0  3
+  84 | Werckmeister Harmonies                   |      |  97 | o | t             |    |   0  -            16
+  85 | Looking for Mr. Goodbar                  | 1977 |  76 | o | t             |    |   0   4
+  86 | Gerry                                    | 2011 |     |   | t             |    |   0   - 6
+  87 | Pillow Talk                              | 1959 |  92 | o | t             |    |    1
+  88 | Mixed Blood                              | 1984 |     |   | t             |    |    1
+  89 | Poor Little Rich Girl                    |      |     |   | t             |    |    1
+  90 | The Private Afternoons of Pamela Mann    |      |     |   | f             |    |    1
+  91 | To Die For                               | 1995 |  87 | O | t             |    |    1  -     10
+  92 | Moonstruck                               | 1988 |  92 | O | t             |    |    1   5
+  93 | Baby Face                                | 1933 | 100 | o | t             |    |     2
+  94 | Gloria                                   | 1980 |  95 | o | t             |    |     2
+  95 | Ms. 45                                   | 2013 |  89 | o | t             |    |     2
+  96 | Lewis & Clark: Great Journey West        | 2002 |  78 | o | t             |    |     2
+  97 | Paranoid Park                            | 2008 |  76 | O | t             |    |     2
+  98 | Double Feature - Ant-Man & The Wasp      | 2018 |     |   | f             |  2 |     2
+  99 | Recovery Boys                            |      | 100 | o | t             |    |     2---6
+ 100 | Dark River                               | 2018 |  77 | O | t             |    |     2-----8
+ 101 | Ideal Home                               | 2018 |  73 | o | t             |    |     2-----8
+ 102 | Woman Walks Ahead                        | 2018 |  54 | * | t             |    |     2-----8
+ 103 | Hover                                    | 2018 |  20 | * | t             |    |     2-----8
+ 104 | Black Water                              | 2018 |   0 | * | t             |    |     2-----8
+ 105 | Summer 1993                              | 2018 | 100 | O | t             |    |     2------------15
+ 106 | Gabriel and the Mountain                 | 2018 |  77 | o | t             |    |     2-------------------22
+ 107 | Nancy                                    |      |  80 | o | t             |    |     2--------------------------29
+ 108 | The Gospel According to André            | 2018 |  89 | o | t             |  2 |     2-----------------------------------------         53
+ 109 | Mary Shelley                             | 2018 |  33 | * | t             |  2 |     2----------  ----------------------37
+ 110 | Rock Rubber 45s                          |      |     |   | t             |    |     2----  9
+ 111 | Porco Rosso                              | 1992 |  94 | o | t             |    |     2 4
+ 112 | The Hit                                  |      |  85 | o | t             |    |     2 4
+ 113 | Happy Feet                               | 2006 |  75 | O | t             |    |     2 4
+ 114 | Five Seasons: The Gardens of Piet Oudolf |      |  82 | o | t             |    |     2 ------------------22
+ 115 | Funny Girl                               | 1968 |  93 | O | t             |    |      3
+ 116 | Tootsie                                  | 1982 |  89 | O | t             |    |      3
+ 117 | The First Wives Club                     | 1996 |  41 | * | t             |    |      3
+ 118 | Star Spangled to Death                   |      |     |   | t             |    |      3
+ 119 | The Leakers                              | 2018 |     |   | t             |    |      3----8
+ 120 | Race 3                                   | 2018 |  11 | * | t             |  3 |      3------------------22
+ 121 | Jaws                                     | 1975 |  97 | O | t             |    |       4
+ 122 | The Last Days of Disco                   | 1998 |  73 | o | t             |    |       4
+ 123 | Working Girl                             | 1989 |  85 | o | t             |    |       45
+ 124 | Girls About Town                         | 1931 |     |   | f             |    |       45
+ 125 | Adrift                                   | 2018 |  73 | o | t             | 10 |       4--------------------------------37
+ 126 | Drugstore Cowboy                         | 1989 | 100 | o | t             |    |        5   9
+ 127 | Sweet Charity                            | 1969 | 100 | o | t             |    |         6
+ 128 | The Phantom Tollbooth                    | 1970 | 100 | o | t             |    |         6
+ 129 | Auntie Mame                              | 1958 |  92 | o | t             |    |         6
+ 130 | Times Square                             |      |  50 | * | t             |    |         6
+ 131 | Old Enough                               | 1984 |     |   | t             |    |         6
+ 132 | Tron                                     | 1982 |  70 | o | t             |    |         67
+ 133 | The Red Shoes                            | 1948 |  96 | O | t             |    |         6-8
+ 134 | High Fidelity                            | 2000 |  91 | O | t             |    |         6-8
+ 135 | Miami Blues                              | 1990 |  81 | o | t             |    |         6- 9
+ 136 | Love Live! Sunshine!! Aqours 3rd Wonderf |      |     |   | f             |    |          7
+ 137 | The Driver's Seat                        |      |     |   | f             |    |          7
+ 138 | The Departed                             | 2006 |  90 | O | t             |    |          78
+ 139 | Butterfield 8                            | 1960 |  47 | * | t             |    |          78
+ 140 | Adaptation                               | 2002 |  91 | O | t             |    |          7-    --15
+ 141 | Gangs of New York                        | 2002 |  74 | O | t             |    |          7-     -15
+ 142 | Ash Wednesday                            | 2002 |  25 | * | t             |    |          7    12
+ 143 | The Comedians                            | 1967 |  27 | * | t             |    |          7      14
+ 144 | St. Martin's Lane                        |      |     |   | f             |    |           8
+ 145 | Boom!                                    | 1968 |   8 | * | t             |    |           89
+ 146 | The Only Game in Town                    |      |     |   | t             |    |           8 10
+ 147 | Betty: They Say I'm Different            |      |     |   | t             |    |            9
+ 148 | Les Carabiniers                          |      |  73 | o | t             |    |            910
+ 149 | Reflections in a Golden Eye              | 1967 |  60 | o | t             |    |            910
+ 150 | Never Steady, Never Still                | 2018 |  76 | o | t             |    |            9---13
+ 151 | Izzy Gets the F*ck Across Town           | 2018 |  50 | * | t             |    |            9----14
+ 152 | Beach House                              | 2018 |  25 | * | t             |    |            9-----15
+ 153 | Distorted                                | 2018 |  20 | * | t             |    |            9-----15
+ 154 | Buddies                                  | 1985 |     |   | t             |    |            9-----15
+ 155 | Christian Audigier The VIF               |      |     |   | t             |    |            9-----15
+ 156 | Lobster Cop                              | 2018 |     |   | t             |    |            9-----15
+ 157 | My 2 Mommies                             | 2018 |     |   | t             |    |            9-----15
+ 158 | The Year of Spectacular Men              |      |  75 | o | t             |    |            9------------22
+ 159 | Westwood: Punk, Icon, Activist           | 2018 |  74 | o | t             |    |            9-------------------29
+ 160 | Hotel Artemis                            | 2018 |  57 | * | t             |  9 |            9--------------------30
+ 161 | Veere Di Wedding                         | 2018 |  71 | o | t             |  2 |            9--------------------------36
+ 162 | Rodin                                    | 2017 |  21 | * | t             |    |            9------------- ------------36
+ 163 | Let the Sunshine In                      | 2018 |  86 | O | t             |  2 |            9-------------  ----------------------------------------------70
+ 164 | Boom for Real: The Late Teenage Years of |      |  88 | O | t             |    |            9-------------  ----------- --------------------57
+ 165 | The Seagull                              | 2018 |  69 | o | t             |  4 |            9------    -------------------------------------57
+ 166 | Quad Comedy Shorts Vol. 1                |      |     |   | f             |    |            9---  15
+ 167 | Ganja & Hess                             | 1973 |  83 | o | t             |    |            9-     --- -- ------ ---33
+ 168 | Secret Ceremony                          |      |  50 | * | t             |    |            9 11
+ 169 | BANDSTAND: The Broadway Musical on Scree | 2018 |     |   | t             |  3 |            9  12
+ 170 | Brazil                                   | 1985 |  98 | O | t             |    |             10
+ 171 | Met Summer Encore: Il Trovatore          | 2018 |     |   | f             |  3 |             10
+ 172 | Nausicaä of the Valley of the Wind       | 1984 |  87 | o | t             |    |             1011
+ 173 | X, Y & Zee                               | 1972 |  33 | * | t             |    |             1011
+ 174 | West Side Story                          | 1961 |  94 | O | t             |  3 |             10  13
+ 175 | The Big Lebowski                         | 1998 |  82 | O | t             |    |             10   --     --     -29
+ 176 | Indiana Jones and the Last Crusade       | 1989 |  88 | O | t             |    |             10         -21
+ 177 | The Taming of the Shrew                  | 1967 |  85 | o | t             |    |              11 13
+ 178 | Brand: A Second Coming                   | 2015 |  71 | o | t             |    |               12
+ 179 | NT LIVE: The Curious Incident of the Dog | 2018 |     |   | t             |  3 |               12-           25
+ 180 | Who's Afraid of Virginia Woolf?          | 1966 |  95 | O | t             |    |               12 14
+ 181 | The Sandpiper                            | 1965 |  10 | * | t             |    |               12 14
+ 182 | Lady Snowblood                           | 1973 | 100 | o | t             |    |                13
+ 183 | Cleopatra                                | 1934 |  89 | o | t             |    |                13
+ 184 | Vengeance of a Snow Girl                 | 1971 |     |   | f             |    |                13
+ 185 | The Wizard of Oz                         | 1939 |  99 | O | t             |    |                1314
+ 186 | Tangerine                                | 2015 |  97 | O | t             |    |                13 15
+ 187 | National Velvet                          | 1945 | 100 | o | t             |    |                13   17
+ 188 | The V.I.P.s                              | 1963 |     |   | t             |    |                 14
+ 189 | BPM (Beats Per Minute)                   | 2017 |  98 | O | t             |    |                 1415
+ 190 | Spaceballs                               | 1987 |  57 | * | t             |    |                 14-    --22
+ 191 | El Topo                                  | 1970 |  78 | O | t             |    |                 14-     -22
+ 192 | Giant                                    | 1956 |  95 | o | t             |    |                  15
+ 193 | A Place in the Sun                       | 2013 |     |   | t             |    |                  15 17
+ 194 | Suddenly, Last Summer                    | 1959 |  69 | o | t             |    |                   16
+ 195 | Cruising                                 | 1980 |  51 | * | t             |    |                   16
+ 196 | Walker                                   |      |  40 | * | t             |    |                   16
+ 197 | DCI 2018: Tour Premiere                  | 2018 |     |   | t             |  3 |                   16
+ 198 | Jurassic World Double Feature            | 2018 |     |   | t             |  5 |                   16
+ 199 | NT Live: Cat on a Hot Tin Roof           | 2018 |     |   | t             |    |                   16
+ 200 | The Unafraid                             |      |     |   | f             |    |                   16
+ 201 | Father of the Bride                      | 1950 |  93 | o | t             |    |                   1617
+ 202 | One Sings, the Other Doesn't             | 1977 |  78 | o | t             |    |                   16-----22
+ 203 | Straight Into a Storm: A New Rock Film A |      |  60 | o | t             |    |                   16-----22
+ 204 | The Yellow Birds                         |      |  46 | * | t             |    |                   16-----22
+ 205 | China Salesman                           |      |   8 | * | t             |    |                   16-----22
+ 206 | Affairs of State                         |      |     |   | t             |    |                   16-----22
+ 207 | Half the Picture                         |      | 100 | o | t             |    |                   16------------29
+ 208 | Sanky Panky 3                            | 2018 |     |   | t             |    |                   16-------------------36
+ 209 | Upgrade                                  | 2018 |  85 | O | t             |  8 |                   16--------------------37
+ 210 | Who We Are Now                           | 2018 |  94 | o | t             |    |                   16--------------------------43
+ 211 | Show Dogs                                | 2018 |  18 | * | t             |  7 |                   16---------------------------------50
+ 212 | On Chesil Beach                          | 2018 |  69 | o | t             |  6 |                   16----------------------------------51
+ 213 | Raazi                                    | 2018 | 100 | o | t             |  2 |                   16----------------------------------------57
+ 214 | Life of the Party                        | 2018 |  38 | * | t             |  8 |                   16-----------------------------------------58
+ 215 | Breaking In                              | 2018 |  24 | * | t             |  7 |                   16-----------------------------------------58
+ 216 | Tully                                    | 2018 |  87 | O | t             | 10 |                   16------------------------------------------------64
+ 217 | Mountain                                 | 2018 |  85 | O | t             |    |                   16-------             ---------46
+ 218 | Believer                                 | 2018 |  75 | o | t             |  2 |                   16------ -----29
+ 219 | The Quest of Alain Ducasse               | 2018 |  69 | o | t             |    |                   16------ -----29
+ 220 | A Kid Like Jake                          | 2018 |  53 | * | t             |    |                   16------ ------------36
+ 221 | Always at The Carlyle                    |      |  59 | * | t             |    |                   16------ -------------37
+ 222 | How to Talk to Girls at Parties          |      |  48 | * | t             |  2 |                   16------  ------------------43
+ 223 | Zama                                     | 2018 |  95 | O | t             |    |                   16------  ----------- ------------------------------------ 73
+ 224 | Grace Jones: Bloodlight and Bami         | 2018 |  86 | O | t             |    |                   16------                     -------    -56
+ 225 | Lean on Pete                             | 2018 |  92 | O | t             |  4 |                   16------                                   --------------- 73
+ 226 | The Old Dark House                       | 1932 | 100 | o | t             |    |                   16---  22
+ 227 | Mommie Dearest                           | 1981 |  56 | * | t             |    |                    17
+ 228 | A Thousand Girls Like Me                 |      |     |   | f             |    |                    17
+ 229 | The Met Summer Encore: Madama Butterfly  | 2018 |     |   | t             |  3 |                    17
+ 230 | The Silence of Others                    |      |     |   | t             |    |                    17
+ 231 | Princess Mononoke – Studio Ghibli Fest 2 | 2018 |     |   | t             |    |                    1718
+ 232 | 7 Din Mohabbat In                        | 2018 |     |   | t             |    |                    17----22
+ 233 | Restoring Tomorrow                       |      |     |   | t             |    |                    17----22
+ 234 | How Long Will I Love U                   | 2018 |     |   | t             |    |                    17----- ------------- -----43
+ 235 | Black Panther                            | 2018 |  97 | O | t             |  7 |                    17-----  ------------------------------------------------ 73
+ 236 | Pom Poko – Studio Ghibli Fest 2018       | 2018 |     |   | t             |  3 |                    17 -20
+ 237 | Tropical Rainforest                      | 1992 |     |   | t             |    |                    17                                 51
+ 238 | McKellen: Playing the Part               | 2019 | 100 | o | t             |    |                     18
+ 239 | Belle de Jour                            | 1967 |  96 | O | t             |    |                     18
+ 240 | The Distant Barking of Dogs              |      |     |   | t             |    |                     18
+ 241 | TransMilitary                            |      |     |   | t             |    |                     18
+ 242 | Quatermass and the Pit                   | 1967 |  80 | o | t             |    |                     18  21
+ 243 | Horror of Dracula                        | 1958 |  91 | o | t             |    |                     18   -             36
+ 244 | RiffTrax Live: Space Mutiny              | 2018 |     |   | t             |  3 |                     18    23
+ 245 | The Cleaners                             | 2018 |  86 | o | t             |    |                      19
+ 246 | Facing the Dragon                        |      |     |   | f             |    |                      19
+ 247 | Frankenstein Created Woman               | 1965 |  60 | o | t             |    |                      19  22
+ 248 | The Curse of the Werewolf                | 1961 |  60 | o | t             |    |                      19           31
+ 249 | The Brides of Dracula                    | 1960 |  73 | o | t             |    |                      19               35
+ 250 | Fly Away Home                            | 1996 |  87 | o | t             |    |                       20
+ 251 | Angkar                                   |      |     |   | f             |    |                       20
+ 252 | Voices of the Sea                        |      |     |   | f             |    |                       20
+ 253 | The Long Riders                          |      |  82 | o | t             |    |                       2021
+ 254 | One Million Years B.C.                   |      |  67 | o | t             |    |                       2021
+ 255 | Indiana Jones: Raiders of The Lost Ark   | 1981 |  95 | O | t             |    |                       20- 23
+ 256 | Barry Lyndon                             | 1975 |  94 | O | t             |    |                       20  --  -28
+ 257 | Die! Die! My Darling!                    |      |  44 | * | t             |    |                       20   24
+ 258 | The Pirates of Blood River               |      |     |   | t             |    |                       20    25
+ 259 | The Phantom of the Opera                 | 1962 |     |   | t             |    |                       20           32
+ 260 | X the Unknown                            |      |  60 | o | t             |    |                       20                37
+ 261 | Naila and the Uprising                   |      | 100 | o | t             |    |                        21
+ 262 | The Devil Rides Out                      | 1968 |  94 | o | t             |    |                        21
+ 263 | Fly Away                                 |      |  85 | o | t             |    |                        21
+ 264 | What Will People Say                     |      |  75 | o | t             |    |                        21
+ 265 | Dracula, Prince of Darkness              |      |  78 | o | t             |    |                        2122
+ 266 | Bringing Out the Dead                    | 1999 |  71 | O | t             |    |                        2122
+ 267 | Casino                                   | 1996 |  80 | O | t             |    |                        21-     -29
+ 268 | Maniac Cop 2                             | 1990 |  60 | o | t             |    |                        21  24
+ 269 | All's Well                               |      |     |   | f             |    |                        21      -  31
+ 270 | The Gorgon                               |      |  60 | o | t             |    |                        21        30
+ 271 | Anote's Ark                              |      | 100 | o | t             |    |                         22
+ 272 | Maniac Cop                               | 1988 |  50 | * | t             |    |                          2324
+ 273 | Middleground                             | 2018 |     |   | t             |    |                          23---27
+ 274 | 1945                                     | 2017 |  96 | O | t             |    |                          23----28
+ 275 | Footsteps of My Father                   |      |     |   | f             |    |                          23----28
+ 276 | Bernard and Huey                         |      |  76 | o | t             |    |                          23-----29
+ 277 | The Valley                               | 2018 |  42 | * | t             |    |                          23-----29
+ 278 | Kaala (Tamil)                            | 2018 |  50 | * | t             |  2 |                          23-------31
+ 279 | Breath                                   | 2018 |  74 | o | t             |    |                          23------------36
+ 280 | Action Point                             | 2018 |  20 | * | t             |  8 |                          23------------36
+ 281 | Overboard                                | 2018 |  26 | * | t             |  6 |                          23-----------------------------------------64
+ 282 | Monkey Business                          | 1931 |  94 | o | t             |    |                          23- --28
+ 283 | Lolita                                   | 1962 |  95 | o | t             |    |                          23 25
+ 284 | Eraserhead                               | 1982 |  91 | O | t             |    |                          23                                      --     -70
+ 285 | Incredibles Double Feature               | 2018 |     |   | t             |  3 |                           24
+ 286 | One Last Thing – A Chicken Soup for the  | 2018 |     |   | t             |    |                           24
+ 287 | The Guru + Autobiography of a Princess   |      |     |   | t             |    |                           24
+ 288 | To a More Perfect Union: U.S. v Windsor  | 2018 |     |   | t             |    |                           24
+ 289 | Mountain                                 | 2016 |  85 | O | t             |    |                           24----------35
+ 290 | The Doctor From India                    |      |     |   | t             |    |                           24-----------36
+ 291 | LES PARENTS TERRIBLES (THE STORM WITHIN) | 1950 | 100 | o | t             |    |                           24------------37
+ 292 | The Guardians                            | 2018 |  90 | o | t             |    |                           24------------37
+ 293 | Dementia                                 | 1955 |     |   | t             |    |                           24--  29
+ 294 | Scarface 35th Anniversary                | 2018 |     |   | t             |  2 |                           24  27
+ 295 | Dream Big: Engineering Our World         | 2017 | 100 | o | t             |    |                           24     -                    - -   - 59
+ 296 | Torch Song Trilogy                       |      |  72 | o | t             |    |                            25
+ 297 | NT Live: Macbeth                         | 2018 |     |   | f             |  2 |                            25 -                       51
+ 298 | Pariah                                   | 2011 |  94 | O | t             |    |                             26
+ 299 | Hairspray                                | 2007 |  91 | O | t             |    |                             26
+ 300 | Mr. & Mrs. Bridge                        | 1990 |  80 | o | t             |    |                             26
+ 301 | The Golden Bowl                          | 2001 |  53 | * | t             |    |                             26
+ 302 | Doctor Who: Genesis of the Daleks        | 2018 |     |   | t             |  3 |                             26
+ 303 | Royal Opera House: Manon                 | 2018 |     |   | f             |    |                             26
+ 304 | Jumanji Movie Event                      | 2018 |     |   | t             |  3 |                             2627
+ 305 | Rasputin, the Mad Monk                   | 1966 |  43 | * | t             |    |                             26 28
+ 306 | HAIKARA SAN: HERE COMES MISS MODERN      | 2018 |     |   | t             |    |                             26 28
+ 307 | The Remains of the Day                   | 1993 |  97 | o | t             |    |                              27
+ 308 | A Soldier's Daughter Never Cries         | 1998 |  77 | o | t             |    |                              27
+ 309 | Hysteria                                 | 2012 |  57 | * | t             |    |                              27
+ 310 | Bolshoi Ballet: Coppelia                 | 2018 |     |   | t             |  2 |                              27
+ 311 | Who Framed Roger Rabbit                  | 1988 |  97 | O | t             |    |                              2728
+ 312 | The Curse of the Mummy's Tomb            |      |     |   | t             |    |                              2728
+ 313 | Do the Right Thing                       | 1989 |  93 | O | t             |    |                              27-29
+ 314 | Close-Up                                 |      |     |   | t             |    |                              27-29
+ 315 | The 12th Man                             |      |  83 | o | t             |    |                              27--                            ---- -63
+ 316 | Ghost Stories                            | 2018 |  82 | O | t             |    |                              27 -                   ------------------------ 73
+ 317 | The Fast and the Furious                 | 2001 |  53 | * | t             |    |                              27  30
+ 318 | The Nanny                                |      |     |   | t             |    |                              27  30
+ 319 | Heat and Dust                            | 1983 |  86 | o | t             |    |                               28
+ 320 | Le Divorce                               | 2003 |  37 | * | t             |    |                               28
+ 321 | Trans                                    | 2000 |     |   | f             |    |                               28
+ 322 | Cape Fear                                | 1962 | 100 | o | t             |    |                               28-     -36
+ 323 | RoboCop                                  | 1987 |  89 | O | t             |    |                               28-     -36
+ 324 | Pink Flamingos                           | 1997 |  80 | o | t             |    |                               28-     --    --43
+ 325 | The Mummy                                | 1959 | 100 | o | t             |    |                               28      -36
+ 326 | Surviving Picasso                        | 1996 |  33 | * | t             |    |                                29
+ 327 | The Stranglers of Bombay                 |      |     |   | t             |    |                                29    34
+ 328 | Shakespeare Wallah                       | 1966 |  88 | o | t             |    |                                29     35
+ 329 | National Lampoon's Vacation              | 1983 |  93 | O | t             |    |                                 30
+ 330 | The Seven Year Itch                      | 1955 |  87 | o | t             |    |                                 30
+ 331 | Nossa Chape                              |      |  92 | o | t             |    |                                 30-----36
+ 332 | Bhavesh Joshi Superhero                  | 2018 |  71 | o | t             |    |                                 30-----36
+ 333 | The Texture of Falling                   |      |  20 | * | t             |    |                                 30-----36
+ 334 | In the Footsteps of Gandhi               |      |     |   | f             |    |                                 30-----36
+ 335 | Yadvi: The Dignified Princess            | 2017 |     |   | t             |    |                                 30-----36
+ 336 | In Darkness                              | 2018 |  53 | * | t             |    |                                 30-----------42
+ 337 | Filmworker                               |      |  95 | O | t             |    |                                 30------------43
+ 338 | Beast                                    | 2018 |  94 | O | t             |  4 |                                 30---------------------------58
+ 339 | Chappaquiddick                           | 2018 |  80 | O | t             |  7 |                                 30------------------------------------------ 73
+ 340 | I Feel Pretty                            | 2018 |  32 | * | t             |  9 |                                 30------------------------------------------ 73
+ 341 | That Summer                              | 2018 |  89 | o | t             |    |                                 30----- ----41
+ 342 | Revenge                                  | 2018 |  92 | O | t             |    |                                 30----- --------------------57
+ 343 | Corridor of Mirrors                      |      |     |   | t             |    |                                 30---  36
+ 344 | Fate/stay night [Heaven’s Feel] THE MOVI | 2018 |     |   | t             |  2 |                                 30 32
+ 345 | The Evil of Frankenstein                 | 1964 |  50 | * | t             |    |                                 30   34
+ 346 | The Two Faces of Dr. Jekyll              |      |     |   | t             |    |                                  3132
+ 347 | These Are the Damned                     | 1963 |  86 | o | t             |    |                                  31 33
+ 348 | The Producers 50th Anniversary           | 1968 |  91 | O | t             |  3 |                                  31  34
+ 349 | Our Song                                 | 2001 |  91 | O | t             |    |                                   32
+ 350 | Love Means Zero                          |      |     |   | t             |    |                                   32
+ 351 | California Suite                         | 1979 |  55 | * | t             |    |                                   3233
+ 352 | Sherlock Gnomes                          | 2018 |  29 | * | t             |  3 |                                   32------- -------------------------------- 73
+ 353 | The Revenge of Frankenstein              | 1958 |  92 | o | t             |    |                                   32  35
+ 354 | Girls Town                               | 1996 |  88 | o | t             |    |                                    33
+ 355 | The Electric Horseman                    | 1979 |  68 | o | t             |    |                                    33
+ 356 | Ten Seconds to Hell                      |      |     |   | t             |    |                                    33
+ 357 | Yesterday's Enemy                        |      |     |   | f             |    |                                    33 35
+ 358 | Best F(r)iends Volume Two                | 2018 |     |   | t             |  3 |                                    33  36
+ 359 | The Hound of the Baskervilles            | 1959 |  94 | o | t             |    |                                     34
+ 360 | Wayne's World 2                          | 1993 |  60 | o | t             |    |                                     34
+ 361 | Cash on Demand                           |      |     |   | t             |    |                                     34
+ 362 | One Vote                                 |      |     |   | f             |    |                                     34
+ 363 | The Godfather                            | 1972 |  98 | O | t             |  2 |                                     3435
+ 364 | Never Take Sweets From a Stranger        |      |     |   | t             |    |                                     34 36
+ 365 | The Camp on Blood Island                 |      |     |   | t             |    |                                      35
+ 366 | The Satellite Girl and Milk Cow          | 2014 |     |   | t             |    |                                      35
+ 367 | Wayne's World                            | 1992 |  86 | O | t             |    |                                      3536
+ 368 | Starship Troopers                        | 1997 |  63 | o | t             |  2 |                                      3536
+ 369 | The Living Sea                           | 1995 |     |   | t             |    |                                       36               -                  71
+ 370 | The Quatermass Xperiment                 |      |  93 | o | t             |    |                                        37
+ 371 | Queen Margot                             | 1994 |  81 | o | t             |    |                                        37
+ 372 | Andy Irons: Kissed by God                | 2018 |     |   | t             |  2 |                                        37
+ 373 | The Abominable Snowman of the Himalayas  |      |     |   | t             |    |                                        37
+ 374 | The Misandrists                          | 2018 |  69 | o | t             |    |                                        37-----43
+ 375 | Future World                             | 2018 |   0 | * | t             |    |                                        37-----43
+ 376 | Pope Francis - A Man of His Word         | 2018 |  89 | O | t             |  8 |                                        37-------------51
+ 377 | Love, Simon                              | 2018 |  91 | O | t             |  3 |                                        37-------------------------- -      - 73
+ 378 | 102 Not Out                              | 2018 |  71 | o | t             |  2 |                                        37-- -----------------------63
+ 379 | Sammy Davis, Jr.: I've Gotta Be Me       |      | 100 | o | t             |    |                                         38
+ 380 | A Chance in the World - Premiere         | 2018 |     |   | t             |  2 |                                         38
+ 381 | Dolphins                                 | 1999 |     |   | t             |    |                                         38
+ 382 | Parmanu: The Story of Pokhran            | 2018 |  50 | * | t             |    |                                         38----43
+ 383 | Ready Player One                         | 2018 |  73 | O | t             |  8 |                                         38---------------------------------- 73
+ 384 | Feral                                    | 2018 |  38 | * | t             |    |                                         38- --43
+ 385 | Rampage                                  | 2018 |  52 | * | t             |  7 |                                         38- -------------------------------- 73
+ 386 | Film Club With Marshall Fine             |      |     |   | f             |    |                                         38             52
+ 387 | The Atomic Cafe                          |      |  94 | o | t             |    |                                          39
+ 388 | Blazing Saddles                          | 1974 |  90 | O | t             |    |                                           40--43
+ 389 | A Clockwork Orange                       | 1971 |  89 | O | t             |    |                                            41--     -50
+ 390 | That Summer                              |      |  89 | o | t             |    |                                             42-------50
+ 391 | In Darkness                              | 2012 |  88 | O | t             |    |                                              43
+ 392 | A Jihad for Love                         |      |  78 | o | t             |    |                                               44
+ 393 | Opening Night Fan Event - Solo: A Star W | 2018 |  71 | o | t             |  4 |                                               44
+ 394 | Sollers Point                            |      |  86 | o | t             |    |                                               44-46
+ 395 | Saving Brinton                           |      |  91 | o | t             |    |                                               44-----50
+ 396 | Carter & June                            | 2018 |  13 | * | t             |    |                                               44-----50
+ 397 | Dark Crimes                              |      |   0 | * | t             |    |                                               44-----50
+ 398 | Nothing to Lose                          | 2018 |     |   | t             |  3 |                                               44-------------58
+ 399 | Call Me by Your Name                     | 2018 |  95 | O | t             |    |                                               44------------------62
+ 400 | Beirut                                   | 2018 |  77 | O | t             |  6 |                                               44---------------------------- 73
+ 401 | Blockers                                 | 2018 |  83 | O | t             |  7 |                                               44------ --------------------- 73
+ 402 | Strangers on the Earth                   |      |  83 | o | t             |    |                                               44---- -------------62
+ 403 | Born to Be Wild                          | 2011 |     |   | t             |    |                                               44                         70
+ 404 | Film Club                                |      |     |   | f             |    |                                                45
+ 405 | Champion                                 | 2018 |     |   | t             |    |                                                45----50
+ 406 | Blumhouse's Truth or Dare                | 2018 |  14 | * | t             |  7 |                                                45--------------------------- 73
+ 407 | Porco Rosso – Studio Ghibli Fest 2018    | 2018 |     |   | t             |  2 |                                                45 -48
+ 408 | The Fourth Estate                        |      | 100 | o | t             |    |                                                 46
+ 409 | Pierrot le Fou                           | 1969 |  85 | O | t             |    |                                                 46
+ 410 | GODSPEED - The Race Across America       | 2018 |     |   | t             |  2 |                                                 46
+ 411 | All That Jazz                            | 1979 |  86 | o | t             |    |                                                  47
+ 412 | Fame                                     | 2009 |  24 | * | t             |    |                                                  47
+ 413 | Royal Opera House: Macbeth               | 2018 |     |   | f             |    |                                                  47
+ 414 | The King of Comedy                       | 1983 |  90 | O | t             |    |                                                  47 -50
+ 415 | Privilege                                |      |  50 | * | t             |    |                                                   48-50
+ 416 | The Royal Wedding                        | 2018 |     |   | t             |    |                                                    49
+ 417 | Pulp Fiction                             | 1994 |  94 | O | t             |    |                                                    49-     -57
+ 418 | Gremlins 2: The New Batch                | 1990 |  69 | o | t             |    |                                                    49-     --    -63
+ 419 | Coral Reef Adventure                     | 2003 |  91 | o | t             |    |                                                     50            63
+ 420 | Salaam Bombay!                           | 1988 |  93 | o | t             |    |                                                      51
+ 421 | The Escape                               | 2018 |  84 | o | t             |    |                                                      51
+ 422 | Death Wish                               | 2018 |  18 | * | t             |    |                                                      51
+ 423 | Amazon Adventure                         |      |     |   | t             |    |                                                      51
+ 424 | Deadpool's Double Feature                | 2018 |     |   | t             |  7 |                                                      51
+ 425 | The Snowman Trek                         | 2018 |     |   | t             |  2 |                                                      51
+ 426 | What Haunts Us                           |      | 100 | o | t             |    |                                                      51-----57
+ 427 | Class Rank                               | 2018 |  83 | o | t             |    |                                                      51-----57
+ 428 | Lu Over the Wall                         | 2018 |  76 | o | t             |  2 |                                                      51-----57
+ 429 | Anything                                 | 2018 |  60 | o | t             |    |                                                      51-----57
+ 430 | Racer and the Jailbird                   | 2018 |  33 | * | t             |    |                                                      51-----57
+ 431 | Terminal                                 | 2018 |  23 | * | t             |    |                                                      51-----57
+ 432 | Born Guilty                              | 2018 |     |   | t             |    |                                                      51-----57
+ 433 | I Am Your Mom                            | 2018 |     |   | t             |    |                                                      51-----57
+ 434 | The Last Horsemen of New York            |      |     |   | t             |    |                                                      51-----57
+ 435 | The Desert Bride                         | 2018 |  83 | o | t             |    |                                                      51------------63
+ 436 | Bad Samaritan                            | 2018 |  52 | * | t             |  7 |                                                      51-------------64
+ 437 | Super Troopers 2                         | 2018 |  31 | * | t             |  7 |                                                      51--------------------- 73
+ 438 | Coldwater                                | 2014 |  60 | o | t             |    |                                                      51------      ------70
+ 439 | Itzhak                                   | 2018 |  89 | o | t             |    |                                                      51------       65
+ 440 | The Iron Triangle                        |      |     |   | t             |    |                                                      51 - 55
+ 441 | The Escape                               |      |  84 | o | t             |    |                                                       52----57
+ 442 | Charlie vs. Goliath                      |      |     |   | t             |    |                                                       52 54
+ 443 | Sunset Boulevard                         | 1950 |  98 | O | t             |  2 |                                                       52  55
+ 444 | American Dream: Detroit                  | 2018 |     |   | t             |  2 |                                                        53
+ 445 | Naz & Maalik                             | 2016 |  78 | o | t             |    |                                                         54
+ 446 | No Man's Land                            | 2001 |  93 | O | t             |    |                                                          55
+ 447 | Titanic                                  | 1997 |  88 | O | t             |    |                                                          55  58
+ 448 | After Hours                              | 1985 |  88 | O | t             |    |                                                           5657
+ 449 | Ferris Bueller's Day Off                 | 1986 |  79 | O | t             |    |                                                           5657
+ 450 | Raging Bull                              | 1980 |  95 | O | t             |    |                                                           56-    -63
+ 451 | Puffs: Filmed Live Off Broadway          | 2018 |     |   | t             |  2 |                                                           56  59
+ 452 | DIGIMON ADVENTURE tri.: Coexistence      | 2018 |     |   | t             |  2 |                                                             58
+ 453 | Rogers Park                              | 2018 | 100 | o | t             |    |                                                             58----62
+ 454 | The Cleanse                              | 2018 |  80 | o | t             |    |                                                             58----62
+ 455 | Everything Else                          |      |     |   | t             |    |                                                             58----62
+ 456 | The Con is On                            | 2018 |     |   | t             |    |                                                             58----62
+ 457 | Edward II                                | 1992 | 100 | o | t             |    |                                                             58-----63
+ 458 | Lives Well Lived                         |      | 100 | o | t             |    |                                                             58-----63
+ 459 | Oh Lucy!                                 | 2018 | 100 | O | t             |    |                                                             58-----63
+ 460 | Cold Water                               | 1994 |  60 | o | t             |    |                                                             58-----63
+ 461 | Ismael's Ghosts                          | 2018 |  53 | o | t             |    |                                                             58-----63
+ 462 | A or B                                   | 2018 |     |   | t             |    |                                                             58-----63
+ 463 | Edward II                                | 1992 |     |   | t             |    |                                                             58-----63
+ 464 | The Trough                               | 2018 |     |   | t             |    |                                                             58-----63
+ 465 | Traffik                                  | 2018 |  23 | * | t             |  4 |                                                             58-------------- 73
+ 466 | Love After Love                          | 2018 |  88 | o | t             |    |                                                             58------       - 73
+ 467 | Deep Sea                                 | 2006 |  91 | o | t             |    |                                                              5960
+ 468 | Hector "El Father" Conoceras la Verdad   | 2018 |     |   | t             |    |                                                              59--------67
+ 469 | Tyler Perry's Acrimony                   | 2018 |  22 | * | t             |  3 |                                                              59------------- 73
+ 470 | I Can Only Imagine                       | 2018 |  68 | o | t             |    |                                                              59--------   -71
+ 471 | The Boxcar Children – Surprise Island    | 2018 |     |   | t             |  2 |                                                               60
+ 472 | Tampopo                                  | 1986 | 100 | O | t             |    |                                                               60--63
+ 473 | Willy Wonka and the Chocolate Factory    | 1971 |  91 | o | t             |  2 |                                                                6162
+ 474 | Bungo Stray Dogs: Dead Apple             | 2018 |     |   | t             |  2 |                                                                61-  65
+ 475 | Batman                                   | 1989 |  72 | o | t             |  2 |                                                                 6263
+ 476 | The Endless                              | 2018 |  97 | O | t             |    |                                                                 62-     --  73
+ 477 | Flower                                   | 2018 |  51 | * | t             |    |                                                                   64
+ 478 | Annie Hall                               | 1977 |  97 | O | t             |    |                                                                   64-----70
+ 479 | Kings                                    | 2018 |  12 | * | t             |    |                                                                   64-----70
+ 480 | Da One That Ghost Away                   | 2018 |     |   | t             |    |                                                                   64-----70
+ 481 | Sgt. Stubby: An American Hero            | 2018 |  82 | o | t             |  3 |                                                                   64------- 73
+ 482 | Labyrinth (1986) Event                   | 1986 |  68 | o | t             |  3 |                                                                   64-- 68
+ 483 | October                                  | 2018 |  86 | o | t             |    |                                                                   64--   -- 73
+ 484 | Like Arrows                              | 2018 |     |   | t             |  2 |                                                                   64 66
+ 485 | Secret Ocean                             |      |     |   | f             |    |                                                                    65
+ 486 | The Metropolitan Opera: Cendrillon Encor | 2018 |     |   | t             |  2 |                                                                    65
+ 487 | The Metropolitan Opera: Cendrillon       | 2018 |     |   | t             |    |                                                                        69
+ 488 | Aliens                                   | 1986 |  98 | O | t             |    |                                                                        6970
+ 489 | A Taxi Driver                            | 2017 |  96 | o | t             |    |                                                                        6970
+ 490 | Final Portrait                           | 2018 |  74 | O | t             |    |                                                                          71
+ 491 | Finding Your Feet                        | 2018 |  70 | o | t             |    |                                                                          71
+ 492 | An Evening With Brent Green              |      |     |   | f             |    |                                                                          71
+ 493 | Avengers: Infinity War Opening Night Fan | 2018 |     |   | t             |  2 |                                                                          71
+ 494 | Bharat Ane Nenu                          |      |     |   | t             |    |                                                                          71
+ 495 | After Auschwitz                          | 2018 | 100 | o | t             |    |                                                                          71 73
+ 496 | Borg vs McEnroe                          | 2018 |  83 | O | t             |    |                                                                          71 73
+ 497 | Little Pink House                        |      |  74 | o | t             |    |                                                                          71 73
+ 498 | Beyond the Clouds                        | 2018 |  63 | o | t             |    |                                                                          71 73
+ 499 | Cake                                     | 2018 |     |   | t             |    |                                                                          71 73
+ 500 | Dude's Manual                            | 2018 |     |   | t             |    |                                                                          71 73
+ 501 | The Weather Underground                  | 2002 |  91 | O | t             |    |                                                                            73
+ 502 | 44 Pages                                 |      |  80 | o | t             |    |                                                                            73
+ 503 | The Miracle Season                       | 2018 |  47 | * | t             |    |                                                                            73
+ 504 | Pacific Rim Uprising                     | 2018 |  43 | * | t             |    |                                                                            73
+ 505 | Fragments of Truth                       | 2018 |     |   | t             |    |                                                                            73
+(505 rows)
 
