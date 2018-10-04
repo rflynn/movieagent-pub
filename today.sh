@@ -17,8 +17,8 @@ git add whatsplaying.html
 (cd $HOME/src/movieagent/data/seen && ../../venv/bin/python html_sf.py > $HOME/src/movieagent-pub/whatsplaying-sf.html)
 git add whatsplaying-sf.html
 
-(cd $HOME/src/movieagent/data/seen && ../../venv/bin/python html_medford.py > $HOME/src/movieagent-pub/whatsplaying-medford.html)
-git add whatsplaying-medford.html
+# (cd $HOME/src/movieagent/data/seen && ../../venv/bin/python html_medford.py > $HOME/src/movieagent-pub/whatsplaying-medford.html)
+# git add whatsplaying-medford.html
 
 git commit -m today
 git push -u origin master
