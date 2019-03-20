@@ -14,8 +14,8 @@ git add today_fd_gantt.txt
 (cd $HOME/src/movieagent/data/seen && ../../venv/bin/python html.py > $HOME/src/movieagent-pub/whatsplaying.html)
 git add whatsplaying.html
 
-(cd $HOME/src/movieagent/data/seen && ../../venv/bin/python html_sf.py > $HOME/src/movieagent-pub/whatsplaying-sf.html)
-git add whatsplaying-sf.html
+#(cd $HOME/src/movieagent/data/seen && ../../venv/bin/python html_sf.py > $HOME/src/movieagent-pub/whatsplaying-sf.html)
+#git add whatsplaying-sf.html
 
 # (cd $HOME/src/movieagent/data/seen && ../../venv/bin/python html_medford.py > $HOME/src/movieagent-pub/whatsplaying-medford.html)
 # git add whatsplaying-medford.html
