@@ -11,7 +11,7 @@
 ##PGPASSWORD=password psql -h localhost -U postgres -d postgres -c 'select * from rf_whatsplaying_fd_gantt' > today_fd_gantt.txt
 git add today_fd_gantt.txt
 
-(cd $HOME/src/movieagent/data/seen && ../../venv/bin/python html.py > $HOME/src/movieagent-pub/whatsplaying.html)
+(cd $HOME/src/movieagent/data/seen && ../../venv/bin/python whatsplaying.py > $HOME/src/movieagent-pub/whatsplaying.html)
 git add whatsplaying.html
 
 #(cd $HOME/src/movieagent/data/seen && ../../venv/bin/python html_sf.py > $HOME/src/movieagent-pub/whatsplaying-sf.html)
